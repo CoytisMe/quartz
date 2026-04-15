@@ -43,6 +43,3 @@ reg add "HKCU\Software\Microsoft\Office\16.0\Outlook\PST" /v MaxLargeFileSize /t
 
 Script Saved in Ninja as automation (Run as Local User)
 
-Also in Documents
-H:\My Drive\Documents\Greenhood\Scripts
-

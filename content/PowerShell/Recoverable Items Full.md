@@ -26,7 +26,7 @@ Step3:
 **Clear it out.**
 I found two methods, one seems a lot more aggressive and complicated than the other.
 
-- a) The Simple slow one, This worked for Caroline's it was a global compliance policy identified in step 2, the below guide is simply exempting from the policy, setting your own retention and letting it process. Steps like removing delay holds and single item retention may still be needed and are in the guide for b.
+- a) The Simple slow one, this was tested against a global compliance policy identified in step 2, the below guide is simply exempting from the policy, setting your own retention and letting it process. Steps like removing delay holds and single item retention may still be needed and are in the guide for b.
 	- https://techcommunity.microsoft.com/t5/exchange/how-to-clear-the-discovery-holds-folder/m-p/3694295
 - b) The more aggressive one, remove all hold, kill user access and use a compliance search script to directly purge it. I haven't done this one. Great info on holds and how to remove then though.
 	- https://learn.microsoft.com/en-us/purview/ediscovery-delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold

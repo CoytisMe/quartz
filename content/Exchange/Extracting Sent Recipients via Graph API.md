@@ -90,4 +90,4 @@ Once the extraction is done, remove the app registration or revoke the `Mail.Rea
 ---
 
 ## Related
-- [[mailexport]] — Bayside Letterbox specific run (client IDs, secret, status)
+- [[mailexport]] — client-specific run note (private)
