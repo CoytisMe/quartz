@@ -6,5 +6,6 @@ tags:
   - display
   - monitor
 ---
-![[Scale Monitor.png]]
 
+
+![[Change Monitor Scaling.png]]
