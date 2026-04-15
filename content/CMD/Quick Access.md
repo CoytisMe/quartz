@@ -15,16 +15,19 @@ Your Quick Access folder is probably corrupt, the best option is to delete the c
 Click your Start Button, then just type cmd and on the resulting menu, right click Command Prompt and select 'Run as Administrator'
 
 Paste this command into Command Prompt and press Enter:
-
-- del /F /Q %APPDATA%\Microsoft\Windows\Recent\*
-
-Paste this command into Command Prompt and press Enter:
-
-- del /F /Q %APPDATA%\Microsoft\Windows\Recent\AutomaticDestinations\*
+```
+del /F /Q %APPDATA%\Microsoft\Windows\Recent\*
+```
 
 Paste this command into Command Prompt and press Enter:
+```
+del /F /Q %APPDATA%\Microsoft\Windows\Recent\AutomaticDestinations\*
+```
 
-- del /F /Q %APPDATA%\Microsoft\Windows\Recent\CustomDestinations\*
+Paste this command into Command Prompt and press Enter:
+```
+del /F /Q %APPDATA%\Microsoft\Windows\Recent\CustomDestinations\*
+```
 
 Then, close Command Prompt and restart (not shut down) your PC.
 
@@ -37,26 +40,26 @@ Open File Explorer.
 
 In the Address bar paste this and press Enter:
 
-shell:recent\AutomaticDestinations
+`shell:recent\AutomaticDestinations
 
 Delete the contents of the resulting folder
 
 In the Address bar paste this and press Enter:
 
-shell:recent\CustomDestinations
+`shell:recent\CustomDestinations
 
 Delete the contents of the resulting folder
 
 Restart (not shut down) your PC.
 
 
-Computer\HKEY_CURRENT_USER\Software\Classes\CLSID\{48782065-C5A6-4245-BAAB-8CDBF8DCC7E9}
+`Computer\HKEY_CURRENT_USER\Software\Classes\CLSID\{48782065-C5A6-4245-BAAB-8CDBF8DCC7E9}
 
 
 ## Reg Keys
 
 **Quick Access**
-Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+`Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
 
 **NameSpace (Dropbox etc)**
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace
+`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace

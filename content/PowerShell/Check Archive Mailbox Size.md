@@ -31,4 +31,4 @@ Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics -Archive | Select Disp
 - Must be connected to Exchange Online PowerShell first: `Connect-ExchangeOnline`
 
 
-Get-MailboxStatistics wbs@financementors.com.au -Archive | Select DisplayName, TotalItemSize, ItemCount
+Get-MailboxStatistics user@domain -Archive | Select DisplayName, TotalItemSize, ItemCount
