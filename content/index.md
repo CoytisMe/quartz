@@ -8,4 +8,14 @@ tags:
 ---
 ## Welcome to the knowledgeorlackthereofbase
 
-See if you can tell which note were written be me and which by Claude.
+See if you can tell which notes were written by me and which by Claude.
+
+## Topics
+
+- [[Entra]]
+- [[Exchange]]
+- [[Outlook]]
+- [[SharePoint]]
+- [[Windows]]
+- [[PowerShell]]
+- [[CMD]]
