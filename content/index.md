@@ -1,7 +1,11 @@
 ---
-title: Microsoft Notes
+category:
+publish: true
+tags:
+  - quartz
+  - index
+  - microsoft
 ---
+## Welcome to the knowledgeorlackthereofbase
 
-Technical notes and references for Microsoft 365, Entra, Exchange, Outlook, and Windows.
-
-See if you can guess which ones are written by me and which by Claude
+See if you can tell which note were written be me and which by Claude.
