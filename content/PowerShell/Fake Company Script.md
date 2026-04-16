@@ -1,5 +1,5 @@
 ---
-category:
+category: script
 publish: true
 tags:
   - powershell

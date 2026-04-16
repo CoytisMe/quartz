@@ -1,5 +1,5 @@
 ---
-category:
+category: how-to
 publish: true
 tags:
   - windows
@@ -7,6 +7,7 @@ tags:
   - restore
 ---
 
+## When it doubt, blow it out
 
 ![[Reset Windows PC1.png]]
 

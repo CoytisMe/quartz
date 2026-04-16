@@ -1,5 +1,5 @@
 ---
-category:
+category: how-to
 publish: true
 tags:
   - windows
