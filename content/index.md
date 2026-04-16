@@ -9,6 +9,7 @@ tags:
 ## Welcome, and I'm sorry
 
 See if you can tell which notes were written by me and which by Claude.
-<--- Go Ahead, explore
+
+#### <--- Go Ahead, explore
 
 ![[index2.png]]

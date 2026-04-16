@@ -1,5 +1,5 @@
 ---
-category: work-note
+category: how-to
 tags:
   - sharepoint
   - graph-api
