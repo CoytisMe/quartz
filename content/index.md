@@ -11,4 +11,4 @@ tags:
 See if you can tell which notes were written by me and which by Claude.
 <--- Go Ahead, explore
 
-![[indexpic.png]]
+![[index2.png]]
