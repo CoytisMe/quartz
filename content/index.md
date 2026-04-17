@@ -10,6 +10,8 @@ tags:
 
 See if you can tell which notes were written by me and which by Claude.
 
-#### <--- Go Ahead, explore
+### <-- Go ahead, explore. 
+
+#### Questions? Complaints? Try your luck at enquiries@coytis.me
 
 ![[index2.png]]
