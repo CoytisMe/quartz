@@ -32,3 +32,4 @@ Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics -Archive | Select Disp
 
 
 Get-MailboxStatistics user@domain -Archive | Select DisplayName, TotalItemSize, ItemCount
+
