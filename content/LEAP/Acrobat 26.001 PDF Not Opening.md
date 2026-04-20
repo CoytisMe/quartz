@@ -8,9 +8,11 @@ tags:
   - troubleshooting
 date: 2026-04-16
 ---
+## Resolved
+LEAP updated their add-in, just need the above script to update it on each machine, because they couldn't do that I guess.
 
-# LEAP – Acrobat 26.001 PDF Not Opening
-
+## Script Here - [[LEAP Adobe Add-in Script]]
+### The Story
 Investigated 2026-04-16. Affecting multiple clients simultaneously — root cause is Adobe's emergency security patch (26.001.21431, released April 14 2026) breaking the LEAP-Acrobat integration.
 
 ---
