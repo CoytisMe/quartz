@@ -40,31 +40,52 @@ Step 4:
 **Useful commands**
 
 Get recoverable items data
-- get-mailboxfolderstatistics -identity *user* -folderscope recoverableitems | FL name,folderpath,folderandsubfoldersize,storagequota
+```powershell
+get-mailboxfolderstatistics -identity *user* -folderscope recoverableitems | FL name,folderpath,folderandsubfoldersize,storagequota
+```
 
 Search for basically all holds
-- get-mailbox *user* | FL *hold*
+```powershell
+get-mailbox *user* | FL *hold*
+```
 
 See the global compliance policies
-- Get-RetentionCompliancePolicy
+```powershell
+Get-RetentionCompliancePolicy
+```
 
 Look up the GUID from the inplace results to find the name and details of a global policy
-- Get-RetentionCompliancePolicy *GUID with no prefix or suffix* -DistributionDetail | FL Name,*Location
+```powershell
+Get-RetentionCompliancePolicy *GUID with no prefix or suffix* -DistributionDetail | FL Name,*Location
+```
 
 Exempt a user from the policy
-- Set-RetentionCompliancePolicy -Identity *GUID with no prefix or suffix*  -AddExchangeLocationException *user*
+```powershell
+Set-RetentionCompliancePolicy -Identity *GUID with no prefix or suffix*  -AddExchangeLocationException *user*
+```
 
 Find and remove Delay Holds (There are applied when you change a hold ie exempt from above policy)
-- Get-Mailbox *user* | FL DelayHoldApplied,DelayReleaseHoldApplied
-- Set-Mailbox *user* -removedelayholdapplied
+```powershell
+Get-Mailbox *user* | FL DelayHoldApplied,DelayReleaseHoldApplied
+```
+```powershell
+Set-Mailbox *user* -removedelayholdapplied
+```
 
 Turn off single item recovery (need to purge) and change retention period after excluding 
-- set-mailbox *user* -singleitemrecoveryenabled $false
-- set-mailbox -identity *user* -retaindeleteditemsfor 10
-- get-mailbox *user* | Format-List SingleItemRecoveryEnabled,RetainDeletedItemsFor	
+```powershell
+set-mailbox *user* -singleitemrecoveryenabled $false
+```
+```powershell
+set-mailbox -identity *user* -retaindeleteditemsfor 10
+```
+```powershell
+get-mailbox *user* | Format-List SingleItemRecoveryEnabled,RetainDeletedItemsFor	
+```
 
 Start Processing once new policies are applied
-- Start-Managedfolderassistant -identity *user*
-
+```powershell
+Start-Managedfolderassistant -identity *user*
+```
 
 A7D92094494754488AEB6819B0604F6D00000A2EB92C0000

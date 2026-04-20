@@ -33,14 +33,38 @@ tags:
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "newTab",
+                "index": 0
             },
-            "id": "User.copy.644BA8F2"
+            "id": "User.newTab.profile0"
         },
         {
-            "command": "paste",
-            "id": "User.paste"
+            "command": 
+            {
+                "action": "newTab",
+                "index": 1
+            },
+            "id": "User.newTab.profile1"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "id": "User.newTab.profile2"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 3
+            },
+            "id": "User.newTab.profile3"
         },
         {
             "command": 
@@ -52,34 +76,89 @@ tags:
             "id": "User.splitPane.A6751878"
         },
         {
-            "command": "find",
-            "id": "User.find"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "openTabRenamer",
+            "id": "User.openTabRenamer"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "keybindings": 
     [
         {
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
+            "id": "User.newTab.profile0",
+            "keys": "ctrl+shift+1"
         },
         {
-            "id": "User.paste",
-            "keys": "ctrl+v"
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
         },
         {
             "id": "User.find",
             "keys": "ctrl+shift+f"
         },
         {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.newTab.profile2",
+            "keys": "ctrl+shift+3"
+        },
+        {
             "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.openTabRenamer",
+            "keys": "ctrl+shift+r"
+        },
+        {
+            "id": "User.newTab.profile1",
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "id": "User.newTab.profile3",
+            "keys": "ctrl+shift+4"
         }
     ],
     "newTabMenu": 
     [
+        {
+            "icon": null,
+            "profile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{39c7ea18-a742-4c03-a974-4ddbf9b78bbe}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "type": "profile"
+        },
+        {
+            "icon": null,
+            "profile": "{1a20db44-c874-4f08-896c-463af7db5fe1}",
+            "type": "profile"
+        },
+        {
+            "type": "separator"
+        },
         {
             "type": "remainingProfiles"
         }
@@ -93,6 +172,64 @@ tags:
         "list": 
         [
             {
+                "colorScheme": "Duotone Dark",
+                "experimental.retroTerminalEffect": false,
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "opacity": 90,
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "WildCherry",
+                "commandline": "\"C:\\Users\\Rick\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "guid": "{39c7ea18-a742-4c03-a974-4ddbf9b78bbe}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell Admin",
+                "opacity": 90,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            },
+            {
+                "background": null,
+                "colorScheme": "HaX0R_GR33N",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "CMD",
+                "opacity": 100,
+                "useAcrylic": true
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "background": null,
+                "closeOnExit": "automatic",
+                "colorScheme": "CyberPunk2077",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "bar",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{1a20db44-c874-4f08-896c-463af7db5fe1}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "CMD (Admin)",
+                "opacity": 100,
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            },
+            {
                 "colorScheme": "CyberPunk2077",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "elevate": false,
@@ -103,33 +240,10 @@ tags:
                 "useAcrylic": true
             },
             {
-                "colorScheme": "HaX0R_GR33N",
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "font": 
-                {
-                    "face": "OCR A"
-                },
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt",
-                "opacity": 100,
-                "useAcrylic": false
-            },
-            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "colorScheme": "Duotone Dark",
-                "experimental.retroTerminalEffect": false,
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "opacity": 90,
-                "source": "Windows.Terminal.PowershellCore",
-                "useAcrylic": true
             }
         ]
     },
@@ -160,9 +274,9 @@ tags:
         },
         {
             "background": "#1F1D27",
-            "black": "#1F1D27",
+            "black": "#6F5E85",
             "blue": "#FFC284",
-            "brightBlack": "#353147",
+            "brightBlack": "#614EA8",
             "brightBlue": "#FFC284",
             "brightCyan": "#2488FF",
             "brightGreen": "#2DCD73",
@@ -274,7 +388,8 @@ tags:
             "yellow": "#F9E2AF"
         }
     ],
-    "themes": []
+    "themes": [],
+    "windowingBehavior": "useAnyExisting"
 }
 ```
 

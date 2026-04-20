@@ -16,21 +16,21 @@ Archive will automatically expand by 10gb when it reaches capacity
 
 **Clients will still still receive notifications that they're archive are about to fill up.**
 
-```
+```powershell
 connect-exchangeonline
 ```
 
 ## One Person
-```
+```powershell
 Enable-Mailbox <user mailbox> -AutoExpandingArchive
 ```
 
-```
+```powershell
 Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
 ```
 
 ## Whole place
 
-```
+```powershell
 Set-OrganizationConfig -AutoExpandingArchive
 ```

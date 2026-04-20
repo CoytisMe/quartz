@@ -10,11 +10,11 @@ publish: true
 ---
 For list only showing licensed or not
 
-```
+```powershell
 Connect-Graph -Scopes User.Read.All, Organization.Read.All
 ```
   
-```
+```powershell
 Get-MgUser -Filter 'assignedLicenses/$count ne 0' -ConsistencyLevel eventual -CountVariable licensedUserCount -All -Select UserPrincipalName,DisplayName,AssignedLicenses | Format-Table -Property DisplayName,UserPrincipalName
 ```
   

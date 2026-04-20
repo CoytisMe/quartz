@@ -9,6 +9,6 @@ publish: true
 ---
 ## Find Conflicts in FolderStatistics
 
-```
+```powershell
 Get-MailboxFolderStatistics -Identity  | Where {$_.FolderType -eq "Conflicts"} | Select-Object FolderSize
 ```

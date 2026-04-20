@@ -6,7 +6,7 @@ tags:
   - rename
 publish: true
 ---
-```
+```powershell
 Rename-Computer -NewName "NewName"
 ```
 

@@ -9,7 +9,7 @@ tags:
 publish: true
 ---
 This will give you a CSV of what mobile number each account is using for 2FA
-```
+```powershell
 # Connect to Microsoft Graph
 Connect-MgGraph -Scopes "User.Read.All","UserAuthenticationMethod.Read.All"
 

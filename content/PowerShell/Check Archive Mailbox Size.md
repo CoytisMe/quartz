@@ -17,7 +17,7 @@ Get-MailboxStatistics user@domain.com -Archive | Select DisplayName, TotalItemSi
 
 **Archive Max**
 ```powershell
-Get-Mailbox user@domain | Select ArchiveQuota, ArchiveWarningQuota
+Get-Mailbox -Identity "user@domain.com" | Select ArchiveQuota, ArchiveWarningQuota, AutoExpandingArchiveEnabled
 ```
 
 ## All Archive Mailboxes
