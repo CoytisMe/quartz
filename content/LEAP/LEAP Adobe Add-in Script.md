@@ -9,8 +9,10 @@ tags:
   - troubleshooting
 date: 2026-04-16
 ---
-### Script to Update Adobe Add-in
-Force closes LEAP and Adobe and runs LEAPs own add-in installer from ProgramData
+### Update / Reinstall Adobe Add-in
+Useful script for LEAP's bi-monthly Adobe fuckup.
+
+Force closes LEAP and Adobe and runs LEAPs own add-in installer from ProgramData.
 
 You can also just go to
 `C:\ProgramData\LEAP Office\Cloud\Extras\Acrobat Extras
