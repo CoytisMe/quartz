@@ -20,8 +20,10 @@ tags:
 #### CyberPunk 2077
 ![[Powershell Themes-3.png]]
 
-## Just take the whole thing
-### put it here:
+## How to change individual profile themes
+![[Powershell Themes-4.png]]
+## Just take the whole json
+**put it here:**
 %localappdata%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 
 ```json
