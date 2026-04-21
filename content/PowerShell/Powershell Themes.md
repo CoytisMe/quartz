@@ -183,7 +183,7 @@ tags:
             },
             {
                 "colorScheme": "WildCherry",
-                "commandline": "\"C:\\Users\\Rick\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
+                "commandline": "\"%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
                 "guid": "{39c7ea18-a742-4c03-a974-4ddbf9b78bbe}",
