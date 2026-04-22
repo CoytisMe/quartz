@@ -8,21 +8,21 @@ tags:
 publish: true
 ---
 1. Open Registry Editor
-	   Start Menu > Regedit or Windows+R and then regedit
+	Start Menu > Regedit or Windows+R and then regedit
 	
 
 2. Either navigate to the below key with the folders on the side of copy paste the full path into the top
    
-   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\PST
+		Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\PST
    
-2. Right click on the white space and hit New > DWORD
+4. Right click on the white space and hit New > DWORD
 
-3. Give it a name (Below), hit enter.
+5. Give it a name (Below), hit enter.
    
-4. Double click it and enter the required value (again, below)
+6. Double click it and enter the required value (again, below)
 		Make sure it's set to decimal
 		
-5. Done
+7. Done
 
 ## Values in question:
 
@@ -36,10 +36,11 @@ MaxLargeFileSize = 100000
 
 
 
-
+```cmd
 reg add "HKCU\Software\Microsoft\Office\16.0\Outlook\PST" /v WarnLargeFileSize /t REG_DWORD /d 95000 /f
 
 reg add "HKCU\Software\Microsoft\Office\16.0\Outlook\PST" /v MaxLargeFileSize /t REG_DWORD /d 100000 /f
+```
 
 Script Saved in Ninja as automation (Run as Local User)
 

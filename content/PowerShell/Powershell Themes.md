@@ -1,5 +1,5 @@
 ---
-category: how to
+category: how-to
 publish: true
 tags:
   - powershell

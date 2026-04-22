@@ -1,5 +1,5 @@
 ---
-category: how to
+category: how-to
 date: 2026-04-20
 publish: true
 tags:

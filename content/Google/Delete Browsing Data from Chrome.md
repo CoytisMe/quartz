@@ -1,6 +1,6 @@
 ---
-category:
-publish: false
+category: how-to
+publish: true
 tags:
   - google
   - chrome
