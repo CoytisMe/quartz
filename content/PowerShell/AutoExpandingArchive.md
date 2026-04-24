@@ -22,11 +22,11 @@ Archive will automatically expand by 10gb when it reaches capacity
 
 ## One Person
 ```powershell
-Enable-Mailbox <user mailbox> -AutoExpandingArchive
+Enable-Mailbox (Read-Host "Enter Email") -AutoExpandingArchive
 ```
 
 ```powershell
-Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
+Get-Mailbox (Read-Host "Enter Email") | FL AutoExpandingArchiveEnabled
 ```
 
 ## Whole place

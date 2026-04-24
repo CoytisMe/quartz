@@ -9,7 +9,7 @@ publish: true
 ---
 ### One User
 ```powershell
-Set-LocalUser -Name "USER" -PasswordNeverExpires $true
+Set-LocalUser -Name (Read-Host "Enter User") -PasswordNeverExpires $true
 ```
 ### All Local Users
 ```powershell

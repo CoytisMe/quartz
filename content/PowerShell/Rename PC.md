@@ -7,7 +7,7 @@ tags:
 publish: true
 ---
 ```powershell
-Rename-Computer -NewName "NewName"
+Rename-Computer -NewName (Read-Host "Enter Name")
 ```
 
 	-restart 

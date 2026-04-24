@@ -22,7 +22,7 @@ Settings (The Cog) > Calendar > Events from email > Turn all off
 
 #### The powershell way
 ```powershell
-Set-MailboxCalendarConfiguration -Identity "user@domain.com" -EventsFromEmailEnabled $false
+Set-MailboxCalendarConfiguration -Identity (Read-Host "Enter Email") -EventsFromEmailEnabled $false
 ```
 
 ### The Whole Org

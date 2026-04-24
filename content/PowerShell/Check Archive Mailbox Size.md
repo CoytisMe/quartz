@@ -12,12 +12,12 @@ publish: true
 ## Single Mailbox
 **Archive Used**
 ```powershell
-Get-MailboxStatistics user@domain.com -Archive | Select DisplayName, TotalItemSize, ItemCount
+Get-MailboxStatistics (Read Host "Enter Email") -Archive | Select DisplayName, TotalItemSize, ItemCount
 ```
 
 **Archive Max**
 ```powershell
-Get-Mailbox -Identity "user@domain.com" | Select ArchiveQuota, ArchiveWarningQuota, AutoExpandingArchiveEnabled
+Get-Mailbox -Identity (Read-Host "Enter Email") | Select ArchiveQuota, ArchiveWarningQuota, AutoExpandingArchiveEnabled
 ```
 
 ## All Archive Mailboxes
@@ -30,5 +30,4 @@ Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics -Archive | Select Disp
 ## Notes
 - The `-Archive` switch is required — without it, the command returns primary mailbox stats instead of the archive.
 - Must be connected to Exchange Online PowerShell first: `Connect-ExchangeOnline`
-
 
