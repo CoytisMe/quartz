@@ -7,7 +7,7 @@ tags:
 date: 2026-03-26
 publish: true
 ---
-# Check In-Place Archive Mailbox Size
+# Check Archive Mailbox Size
 
 ## Single Mailbox
 **Archive Used**
@@ -26,6 +26,7 @@ Get-Mailbox -Identity "user@domain.com" | Select ArchiveQuota, ArchiveWarningQuo
 Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics -Archive | Select DisplayName, TotalItemSize | Sort TotalItemSize -Descending
 ```
 
+## Very Related to [[AutoExpandingArchive]]
 ## Notes
 - The `-Archive` switch is required — without it, the command returns primary mailbox stats instead of the archive.
 - Must be connected to Exchange Online PowerShell first: `Connect-ExchangeOnline`

@@ -14,11 +14,11 @@ Archive will automatically expand by 10gb when it reaches capacity
 	- The setting will activate with an EOP1 but it won't expand past 110gb
 - Exchange Online Archiving ($5)
 
-**Clients will still still receive notifications that they're archive are about to fill up.**
+**Clients will still receive notifications that they're archive are about to fill up.**
 
-```powershell
-connect-exchangeonline
-```
+## See [[Check Archive Mailbox Size]] 
+
+## How to check
 
 ## One Person
 ```powershell

@@ -10,4 +10,5 @@ publish: true
 Rename-Computer -NewName "NewName"
 ```
 
--restart at the end if you want it to restart
+	-restart 
+at the end if you want it to restart
