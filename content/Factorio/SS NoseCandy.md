@@ -1,7 +1,7 @@
 ---
 category:
 date: 2026-04-25
-publish: true
+publish: false
 tags:
   - factorio
   - games
@@ -30,7 +30,7 @@ Explanation of said system is below.
 
 She'd fill up on fresh eggs achieved by surrounding rockets with captive spawns that had their output inserters set to only activate when she arrived and requested. Then she'd fly to Gleba and sit in orbit unless she was either empty on eggs or 1200 seconds had passed meaning they were about to hatch. Inserters filtered to eggs that were circuit controlled to only active when flying back to Nauvis made sure that every trip was a fresh batch.
 
-![[SS NoseCandy.png]]
+![[SS NoseCandy.jpg]]
 
 That's how she got destroyed by biters btw, the inserters couldn't get all the eggs out before the got home.
 
@@ -38,6 +38,6 @@ On Gleba the eggs were only used for the fancy soil, not a consistent demand and
 
 ![[SS NoseCandy-1.png]]
 
-![[SS NoseCandy-2.png]]
+![[SS NoseCandy-2.jpg]]
 
 The whole thing was a set of failovers on top of failovers meant there was never a single biter eggs sitting anywhere that was time controlled and thus I never had a single biter hatch on Gleba.
