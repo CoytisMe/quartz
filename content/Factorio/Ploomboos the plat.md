@@ -18,7 +18,7 @@ To be fair, there's only really one way to do this idea. I hadn't though of the 
 
 ![[Plumboostheplat.jpg]]
 
-## Blueprint
+## Ploomboos Blueprint
 <details>
 <summary>Click Here</summary>
 
