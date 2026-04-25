@@ -1,7 +1,7 @@
 ---
 category:
 date: 2026-04-25
-publish: false
+publish: true
 tags:
   - factorio
   - games
@@ -14,7 +14,7 @@ Took me easily 50 hours, is still my phone background, a shirt was made. To this
 
 She was the impetus of the Make Daddy Hard Again project, but I finished this magnificent beast and then won the game and realised that every other build I'd done on the way was trash in comparison and needed to be fixed. The MDHA project remains unfinished, it literally did make me quit the game. 
 
-We try not to think too hard about the correlation between the steep decline in my hours played in this game  and my being properly medicated for ADHD. But this was a beautiful end.
+We try not to think too hard about the correlation between the steep decline in my hours played in this game and my being properly medicated for ADHD. But this was a beautiful end.
 
 ![[HarderDaddy.jpg]]
 
