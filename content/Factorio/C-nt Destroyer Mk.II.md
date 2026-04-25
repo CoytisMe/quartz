@@ -1,7 +1,7 @@
 ---
 category:
 date: 2026-04-25
-publish: false
+publish: true
 tags:
   - factorio
   - games
