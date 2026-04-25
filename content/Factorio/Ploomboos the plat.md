@@ -16,7 +16,7 @@ Fun fact, I accidently used the wrong module inserter setting when building anot
 
 To be fair, there's only really one way to do this idea. I hadn't though of the LDS shuffle though, that I definitely stole from Nilaus.
 
-![[Plumboostheplat.png]]
+![[Plumboostheplat.jpg]]
 
 ## Blueprint
 <details>

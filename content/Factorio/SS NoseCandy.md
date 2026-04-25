@@ -16,7 +16,7 @@ She was made to haul biter eggs to Gleba, the idea of having the eggs waiting on
 
 Explanation of said system is below.
 
-![[NoseCandy.png]]
+![[NoseCandy.jpg]]
 
 ## Blueprint
 <details>

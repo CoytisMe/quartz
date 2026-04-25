@@ -10,7 +10,7 @@ tags:
 ---
 Built to replace the nuclear powered brick that got me to Aquilo the first time, worked like an absolute chad but she also looked dumb as hell, considered doing s
 
-![[CDMK2.png]]
+![[CDMK2.jpg]]
 
 ## Blueprint
 <details>
