@@ -18,3 +18,4 @@ We try not to think too hard about the correlation between the steep decline in 
 
 ![[HarderDaddy.jpg]]
 
+## [SS HarderDaddy Blueprint](https://raw.githubusercontent.com/CoytisMe/factorio-blueprints/refs/heads/main/harderdaddyblueprint.txt)
