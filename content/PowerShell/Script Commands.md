@@ -50,8 +50,10 @@ MgGraph commands WILL also do that, but it's little more fucky about it. If you 
 #### Note on the note: 
 Everything I just said about mggraph connections isn't super verified, I (Claude) went through a lot of variations and options, this one seemed to work sort of I guess.
 
-# Enjoy command
+# here are command, enjoy please
 I'll prob add to this as I go so check in later or something.
+
+Also here's a link to just download them if [you're lazy](https://coytis.sharepoint.com/:f:/g/IgA8SGlgzRhBQrO3Jiz1KpkVAbeQGXGAyRKjBX_VA2NdFu4?e=C1EAE9)
 ## kill-graph
 Disconnects MgGraph
 ```powershell
