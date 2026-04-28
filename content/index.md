@@ -6,11 +6,13 @@ tags:
   - quartz
   - index
 ---
-## Welcome, and I'm sorry
+## Welcome 
 
-See if you can tell which notes were written by me and which by Claude.
+## and I'm sorry
 
-### <-- Go ahead, explore. 
+this has got to be one of my weirdest hobbies to date, which is really saying something cause I used to cut myself.
+
+much is written by me, much by Claude, hopefully you can figure out which is which.
 
 #### Questions? Complaints? Try your luck at enquiries@coytis.me
 
