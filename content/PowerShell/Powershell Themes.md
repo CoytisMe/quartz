@@ -8,18 +8,21 @@ tags:
 ---
 ## The ones I don't hate
 
-### CMD
-#### HaX0R_GR33N (dumb name)
+### HaX0R_GR33N (dumb name)
 ![[Powershell Themes.png]]
 
-### PowerShell 7
-#### Duotone Dark
+
+### Duotone Dark
 ![[Powershell Themes-2.png]]
 
-### Terminal / PowerShell 5? I don't know.
-#### CyberPunk 2077
+### CyberPunk 2077
 ![[Powershell Themes-3.png]]
 
+### Blueberry Pie
+![[Powershell Themes-5.png]]
+
+### catppuccin-mocha
+![[Powershell Themes-6.png]]
 ## How to change individual profile themes
 ![[Powershell Themes-4.png]]
 ## Just take the whole json
@@ -96,7 +99,7 @@ tags:
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{39c7ea18-a742-4c03-a974-4ddbf9b78bbe}",
     "keybindings": 
     [
         {
@@ -184,7 +187,7 @@ tags:
                 "useAcrylic": true
             },
             {
-                "colorScheme": "WildCherry",
+                "colorScheme": "BlueBerryPie",
                 "commandline": "\"%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
@@ -251,6 +254,29 @@ tags:
     },
     "schemes": 
     [
+        {
+            "background": "#1C0C28",
+            "black": "#149AC7",
+            "blue": "#90A5BD",
+            "brightBlack": "#04CDE3",
+            "brightBlue": "#1234D6",
+            "brightCyan": "#5E6071",
+            "brightGreen": "#07A35E",
+            "brightPurple": "#BC94B7",
+            "brightRed": "#C87272",
+            "brightWhite": "#F27EF2",
+            "brightYellow": "#F299F2",
+            "cursorColor": "#FCFAD6",
+            "cyan": "#7E83CC",
+            "foreground": "#924BA6",
+            "green": "#5CB1B3",
+            "name": "BlueBerryPie",
+            "purple": "#9D54A7",
+            "red": "#99246E",
+            "selectionBackground": "#606060",
+            "white": "#F0E8D6",
+            "yellow": "#EAB9A8"
+        },
         {
             "background": "#000000",
             "black": "#272932",
@@ -319,29 +345,6 @@ tags:
             "selectionBackground": "#D4FFC1",
             "white": "#FAFAFA",
             "yellow": "#15D00D"
-        },
-        {
-            "background": "#02064A",
-            "black": "#626262",
-            "blue": "#FED300",
-            "brightBlack": "#8F8F8F",
-            "brightBlue": "#F92883",
-            "brightCyan": "#E6E7FE",
-            "brightGreen": "#D6FCBA",
-            "brightPurple": "#FFB2FE",
-            "brightRed": "#FFC4BE",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFED5",
-            "cursorColor": "#00FF9C",
-            "cyan": "#D1D1FE",
-            "foreground": "#DC02FA",
-            "green": "#B4FB73",
-            "name": "Laser",
-            "purple": "#FF90FE",
-            "red": "#FF8373",
-            "selectionBackground": "#2E206A",
-            "white": "#F1F1F1",
-            "yellow": "#09B4BD"
         },
         {
             "background": "#1F1726",

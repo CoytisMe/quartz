@@ -26,15 +26,15 @@ So I had a note full of commands I'd built up, most kind of worked, but to use t
 - Can you make me one to -*Insert everything I can think of*-
 	- Yes
 ## The scripts folder was born
-It's really nothing groundbreaking but it took 34 years to get here maybe I can help someone else. Get Claude to turn all the commands you wish you were smart enough to remember into semi dynamic scripts of all you need to remember is what you named it. Really this more akin to making aliases than scripting.
+Get Claude to turn all the commands you wish you were smart enough to remember into semi dynamic scripts of all you need to remember is what you named it. Honestly it's more akin to making aliases than scripting; nothing groundbreaking but it took me 34 years to get here and I'm statistically smarter than you so there's bound to be at least one other clueless stooge I can help. 
 ## How it works:
 - Make a folder in your user folder, ie C:\Users\Rick\Scripts. 
 - Save each of these commands as a .ps1 file in that folder
 - When you open terminal it'll start in the user folder, just type 'cd scripts' and you're in the right place.
-- One there you can just use '.\nameofscript.ps1' and it'll run the command.
+- Once there you can just use '.\nameofscript.ps1' and it'll run the command.
 - You don't have to remember or edit anything beforehand, it'll ask you to connect to the tenant if it needs to and then will ask for any details it needs before running
 - If you use PowerShell 7 it'll even autocomplete, or you can use 'tab complete' just type the start like 'add' and hitting tab will cycle through all that match
-- I keep the scripts folder on my OneDrive and symlink it to C:\Users\Rick on both my PCs so they're always sync'd, you don't have to do that.
+- I keep the scripts folder on my OneDrive and symlink it to C:\Users\Rick on both my PCs so they're always sync'd. If you're a single PC peasant and don't case about cloud syncing your scripts you don't have to bother with that
 
 ![[Script Commands.png]]
 ### Note:
@@ -46,9 +46,9 @@ Claude Guide on modules and shit you need to install to do all of this and how t
 The Exchange-Online connections existing only in the tab or windows they were started in, so new tab = new connection, you can have multiple tenants running at the same time.
 
 ### Note 3
-MgGraph commands WILL also do that, but it's little more fucky about it. If you connect to Graph, start a new tab and run an mggraph command, it will connect automatically to the previous tab. BUT if you disconnect on that new tab the original connection remains, so to have multiple tenants running at once just remember to disconnect in between, hence the existance of the kill-graph script below, save those precious keystrokes.
+MgGraph commands WILL also do that, but it's little more fucky about it. If you connect to Graph, start a new tab and run an mggraph command, it will connect automatically to the previous tab's login. BUT if you disconnect on that new tab the original connection remains, so to have multiple tenants running at once just remember to disconnect in between; hence the existence of the kill-graph script below, save those precious keystrokes.
 #### Note on the note: 
-Everything I just said about mggraph connections isn't super verified, I (claude) went through a lot of variations and options, this one seemed to work sort of I guess.
+Everything I just said about mggraph connections isn't super verified, I (Claude) went through a lot of variations and options, this one seemed to work sort of I guess.
 
 # Enjoy command
 I'll prob add to this as I go so check in later or something.
