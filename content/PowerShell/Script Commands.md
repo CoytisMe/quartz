@@ -8,37 +8,55 @@ date: 2026-04-28
 publish: true
 ---
 ## My latest steps into a mouseless life
-I always enjoyed doing stuff in PowerShell, makes you feel like a hacker when you do it right and it can be a lot quicker than clicking through admin portals if you can remember the commands.
+I always enjoy dicking around in Powershell and CMD; those crazy powerful tools that make you feel like a hung chad hackerman when you do it right.
 
-Which I imagine very few can.
+Which you probably won't.
+
+It can also be a much quicker and more streamlined way to get stuff done. Especially when compared to logging into and clicking around admin portals to make a TAP or assign mailbox permissions for the 40th time today. As long as you remember the commands, the syntax, when and where to use them.
+
+Which you definitely don't.
 
 So I had a note full of commands I'd built up, most kind of worked, but to use them it was still a pain of a multi step process, connect to the service, find the command, get the right email into the command by either smashing the arrow key and deleting or copying it into notepad, changing the email and then copying into PowerShell. Nightmare really.
 
-Enter Claude, answering the big questions:
+## Enter Claude, answering the big questions:
 - Can you set the command so when you copy and paste it in it will just ask you for the email address in question?
 	- Yes, read-host
 - Can you the exchange / graph connect command at the start of each command? Can you stop it from asking to connect if it's already connected?
 	- Yes, dumbass
 - Can you make me one to -*Insert everything I can think of*-
 	- Yes
-# How it works:
+## The scripts folder was born
+It's really nothing groundbreaking but it took 34 years to get here maybe I can help someone else. Get Claude to turn all the commands you wish you were smart enough to remember into semi dynamic scripts of all you need to remember is what you named it. Really this more akin to making aliases than scripting.
+## How it works:
 - Make a folder in your user folder, ie C:\Users\Rick\Scripts. 
-- Same each of these command as a .ps1 file in that folder
+- Save each of these commands as a .ps1 file in that folder
 - When you open terminal it'll start in the user folder, just type 'cd scripts' and you're in the right place.
 - One there you can just use '.\nameofscript.ps1' and it'll run the command.
 - You don't have to remember or edit anything beforehand, it'll ask you to connect to the tenant if it needs to and then will ask for any details it needs before running
-- If you use PowerShell 7 it'll even autocomplete or you can user tab complete to just type 'add' and then hit tab a few times
+- If you use PowerShell 7 it'll even autocomplete, or you can use 'tab complete' just type the start like 'add' and hitting tab will cycle through all that match
 - I keep the scripts folder on my OneDrive and symlink it to C:\Users\Rick on both my PCs so they're always sync'd, you don't have to do that.
 
 ![[Script Commands.png]]
-## Note:
-Claude Guide on modules and shit you need to install to do all of this and how to do the symlink is here:
+### Note:
+Claude Guide on modules and shit you need to install to do all of this and how to do the symlink can be found here:
 [[PowerShell Setup and Symlink]]
 **Obviously you change the folder names to yours**
 
-The Exchange Online ones will start a new connection to a new tenant in every tab so you can have a tab for each client.
+### Note 2
+The Exchange-Online connections existing only in the tab or windows they were started in, so new tab = new connection, you can have multiple tenants running at the same time.
 
-MgGraph commands will also do that, but it bring the connection with it from the previous tab, hitting it with a disconnect won't affect the previous tab, so you can have multiple, just need to do that first. I (Claude) tried a bunch of ways around this, this was the simplest, also I'm only 70% sure it works like that.
+### Note 3
+MgGraph commands WILL also do that, but it's little more fucky about it. If you connect to Graph, start a new tab and run an mggraph command, it will connect automatically to the previous tab. BUT if you disconnect on that new tab the original connection remains, so to have multiple tenants running at once just remember to disconnect in between, hence the existance of the kill-graph script below, save those precious keystrokes.
+#### Note on the note: 
+Everything I just said about mggraph connections isn't super verified, I (claude) went through a lot of variations and options, this one seemed to work sort of I guess.
+
+# Enjoy command
+I'll prob add to this as I go so check in later or something.
+## kill-graph
+Disconnects MgGraph
+```powershell
+Disconnect-MgGraph
+```
 
 ## get-userperms
 Tells you what mailboxes a user has permissions for
@@ -234,12 +252,6 @@ $upn = Read-Host "Enter UPN"
 Get-MgUserAuthenticationTemporaryAccessPassMethod -UserId $upn | ForEach-Object {
     Remove-MgUserAuthenticationTemporaryAccessPassMethod -UserId $upn -TemporaryAccessPassAuthenticationMethodId $_.Id
 }
-```
-
-## kill-graph
-Disconnects MgGraph
-```powershell
-Disconnect-MgGraph
 ```
 
 ## get-archive
