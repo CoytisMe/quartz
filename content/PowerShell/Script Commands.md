@@ -5,7 +5,7 @@ tags:
   - scripts
   - reference
 date: 2026-04-28
-publish:
+publish: true
 ---
 ## My latest steps into a mouseless life
 I always enjoyed doing stuff in PowerShell, makes you feel like a hacker when you do it right and it can be a lot quicker than clicking through admin portals if you can remember the commands.

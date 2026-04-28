@@ -1,5 +1,5 @@
 ---
-created: 2026-03-12 - 11:09
+created: 2026-03-12
 publish: true
 category: reference
 tags:
