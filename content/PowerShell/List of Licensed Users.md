@@ -20,3 +20,6 @@ Get-MgUser -Filter 'assignedLicenses/$count ne 0' -ConsistencyLevel eventual -Co
   
 Export CSV is fucked, but copy paste into Excel works if you change the format-table property to be one at a time
 
+There a version of this that works in [[Script Commands]]
+
+

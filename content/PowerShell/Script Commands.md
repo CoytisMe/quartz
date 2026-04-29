@@ -282,6 +282,44 @@ if (-not (Get-ConnectionInformation)) {
 Enable-Mailbox (Read-Host "Enter mailbox") -AutoExpandingArchive
 ```
 
+## get-licensedusers
+Produces a list of all licenced users in a tenant, also exports the list as a PST and a drops it on the desktop.
+
+There is a worst version of this [[List of Licensed Users |Here]]
+```powershell
+if (-not (Get-MgContext)) {
+    Connect-MgGraph -Scopes "User.Read.All", "Directory.Read.All" -ContextScope Process
+}
+
+# Get all subscribed SKUs and build a SkuId → friendly name lookup
+$skus = Get-MgSubscribedSku
+$skuLookup = @{}
+foreach ($sku in $skus) {
+    $skuLookup[$sku.SkuId] = $sku.SkuPartNumber
+}
+
+# Get all licensed users
+$users = Get-MgUser -All -Property "DisplayName,UserPrincipalName,AssignedLicenses"
+
+$results = foreach ($user in $users) {
+    if ($user.AssignedLicenses.Count -gt 0) {
+        $licenseNames = $user.AssignedLicenses.SkuId | ForEach-Object { $skuLookup[$_] }
+
+        [PSCustomObject]@{
+            DisplayName       = $user.DisplayName
+            UserPrincipalName = $user.UserPrincipalName
+            Licenses          = $licenseNames -join ", "
+        }
+    }
+}
+
+$results | Format-Table -AutoSize
+
+$results | Export-Csv -Path "$env:USERPROFILE\Desktop\LicensedUsers.csv" -NoTypeInformation
+
+Write-Host "`nExported to $env:USERPROFILE\Desktop\LicensedUsers.csv"
+```
+
 ## disable-autocalevents
 Disables automatic calendar events for a whole tenancy 
 ```powershell
