@@ -23,6 +23,8 @@ New-Item -ItemType SymbolicLink -Path "C:\Users\Rick\Scripts" -Target "C:\Users\
 
 > Requires admin or Developer Mode enabled.
 
+More on [[Symlinks]]
+
 ---
 
 ## 2. Set Execution Policy
