@@ -53,7 +53,7 @@ Everything I just said about mggraph connections isn't super verified, I (Claude
 # here are command, enjoy please
 I'll prob add to this as I go so check in later or something.
 
-Also here's a link to just download them if [you're lazy](https://coytis.sharepoint.com/:f:/g/IgA8SGlgzRhBQrO3Jiz1KpkVAbeQGXGAyRKjBX_VA2NdFu4?e=C1EAE9)
+Also here's a link to just download them [if you're lazy](https://coytis.sharepoint.com/:f:/g/IgApJVMo6Y-wSJzh1qlpxvmMARj8Tlm3iyebr-1liHxGVB8?e=UebPRx)
 ## kill-graph
 Disconnects MgGraph
 ```powershell

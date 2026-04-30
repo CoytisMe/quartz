@@ -9,7 +9,7 @@ publish: true
 
 ## One Guy
 ```powershell
-set-focusedinbox -identity "user@company.com.au" -focusedinboxon $true
+set-focusedinbox -identity (Read-Host "Enter mailbox") -focusedinboxon $false
 ```
 
 ## Whole Place
