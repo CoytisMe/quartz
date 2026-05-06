@@ -1,6 +1,6 @@
 ---
 category:
-publish: false
+publish: true
 tags:
   - microsoft
   - outlook
