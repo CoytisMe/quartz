@@ -39,7 +39,7 @@ It sounds like I'm throwing shade but I did piss off a client realll bad by bein
 
 **Done and Done, like 5 clicks, didn't even need Claude.**
 
-If you're worried about the shared mailbox filling up just make a retention policy that yeets stuff after a month or something ([[Changing In-Place Archive Retention Periods|Guide here, sorta]]). 
+If you're worried about the shared mailbox filling up just make a retention policy that yeets stuff after a month or something ([[InPlace Archive Retention Policy|Guide here, sorta]]). 
 
 These were retirees telling their old clients to leave them alone, they'll be dead before that shared mailbox fills up.
 
