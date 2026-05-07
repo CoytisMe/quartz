@@ -21,19 +21,16 @@ At this point you need to be looking at the setup QR code for whichever service 
 This step will differ based on whether you have just the 1Password extension installed or if you also have the standalone app.
 
 ### For the Extension:
-The extension doesn't have the ability to 'see' images so the QR won't work. Luckily most if not all services have an option to get another this. The example below is from the Google account setting authenticator setup, you'll see the 'Can't Scan It?' button, they won't always use the same words but there should be a similar option on all of them.
+Once you've got your QR code on screen, open 1Password to the entry on which you want to set up the code. Hit them 3 dots and you'll see 'Scan QR Code'
 
-Click that link and it will offer you either a URL and a 'key' (Jumble of letters and numbers) Google only have a key because you use your Google email as the URL. 
+Hit that and you're done 
 
-For 1Password you just need the key, copy and paste it into field in the editing windows that says 'One Time Password Code'
-
-![[Setting up a 2FA Code in 1pass-2.png]]
-
+![[1password 2FA Codes-1.png]]
 
 ### For the 1Password App:
 If you have the standalone 1Password add it's a bit simpler, simply right click the QR code and then click on the QR button that is at the far right of the 'One-Time Password Code' Field, the app will read the QR from your clipboard and set up the code.
 
-![[Setting up a 2FA Code in 1pass-3.png]]
+![[Setting up a 2FA Code in 1pass-2.png]]
 
 ## Step 4
 Done! 
