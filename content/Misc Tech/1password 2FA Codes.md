@@ -32,7 +32,7 @@ If you have the standalone 1Password add it's a bit simpler, simply right click 
 
 ![[Setting up a 2FA Code in 1pass-2.png]]
 
-## Step 4
+## Step 4:
 Done! 
 The 2FA is now saved under that credential in 1Password, you'll see it scrolling every 30 seconds. From here whenever you need the code it'll autocomplete if it knows the website, otherwise you can just search in the extension (Control/cmd + Shift X is the shortcut btw) and hit copy to put it in the clipboard and paste it wherever you need!
 
