@@ -38,4 +38,4 @@ Capitalised words and phrases are for emphasis and your safety and / or demarcat
 8. Easy as fuck from here so they going in the same picture.
    ![[Migrating Between Workspace Tenancies-3.png]]
    
-   Pick settings hit go, I can't tell you how long it takes or what happens after, I made or may not update this.
+   Pick settings hit go, I can't tell you how long it takes or what happens after, I may or may not update this.
