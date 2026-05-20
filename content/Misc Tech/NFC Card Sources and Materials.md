@@ -1,7 +1,7 @@
 ---
 category:
 date:
-publish: false
+publish: true
 tags:
 ---
 ## Plan
