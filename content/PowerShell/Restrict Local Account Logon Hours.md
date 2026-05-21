@@ -39,10 +39,9 @@ Runs a loop and targets non admin accounts.
 ## Scheduled Task Setup
 
 Create a single task with two triggers:
-- **On schedule** — run at whatever interval/times needed (e.g. 08:00 and 18:00)
+- **On schedule** — Runs hourly to make sure it doesn't get caught out
 - **At startup** — handles cases where the machine was off when a trigger fired
 
-Enable **"Run task as soon as possible after a scheduled start is missed"** in task settings.
 
 The startup trigger ensures the account state is correct regardless of when the machine was last on — the script checks the current time and enables or disables accordingly.
 
