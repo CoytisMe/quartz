@@ -31,10 +31,9 @@ if ($day -ne 'Saturday' -and $day -ne 'Sunday' -and ($hour -ge 6 -and $hour -lt 
     $nonAdminUsers | Disable-LocalUser
 }
 ```
+Checks that the time is the within the specified hours and the day isn't a weekend. If it's not it runs a loop to target and disable all non admin accounts.
 
-Script to create this as a .ps1 in C:\ProgramData\Scripts\Set-LocalAccountHours.ps1 below.
-
-Runs a loop and targets non admin accounts.
+The script to create this as a .ps1 in Program Data remotely can be found below.
 
 ## Scheduled Task Setup
 
