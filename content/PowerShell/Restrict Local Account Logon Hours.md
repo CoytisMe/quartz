@@ -32,6 +32,8 @@ if ($day -ne 'Saturday' -and $day -ne 'Sunday' -and ($hour -ge 6 -and $hour -lt 
 }
 ```
 
+Script to create this as a .ps1 in C:\ProgramData\Scripts\Set-LocalAccountHours.ps1 below.
+
 Runs a loop and targets non admin accounts.
 
 ## Scheduled Task Setup
@@ -64,4 +66,30 @@ Register-ScheduledTask -TaskName "Set-LocalAccountHours" `
     -Settings $settings `
     -Principal $principal `
     -Force
+```
+
+## Create the script via RMM etc
+```powershell
+$dir = "C:\ProgramData\Scripts"
+if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir | Out-Null }
+
+$content = @'
+$hour = (Get-Date).Hour
+$day  = (Get-Date).DayOfWeek
+
+$adminSids = @("S-1-5-32-544")
+
+$nonAdminUsers = Get-LocalUser | Where-Object {
+    $_.Enabled -ne $null -and
+    (Get-LocalGroupMember -SID $adminSids[0] -ErrorAction SilentlyContinue).Name -notcontains "$env:COMPUTERNAME\$($_.Name)"
+}
+
+if ($day -ne 'Saturday' -and $day -ne 'Sunday' -and ($hour -ge 6 -and $hour -lt 21)) {
+    $nonAdminUsers | Enable-LocalUser
+} else {
+    $nonAdminUsers | Disable-LocalUser
+}
+'@
+
+Set-Content -Path "$dir\Set-LocalAccountHours.ps1" -Value $content -Encoding UTF8
 ```
