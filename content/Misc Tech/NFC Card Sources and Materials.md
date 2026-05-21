@@ -102,5 +102,6 @@ If they engrave instead of print I say we go for them
 **[ImprintNow](https://www.imprintnow.com.au/product/business-cards/nfc-metal-business-cards?smp&gad_source=1&gad_campaignid=21366182873&gbraid=0AAAAABHjHPs7JOpLtUgQqov_I0CHKIsJF&gclid=CjwKCAjwt7XQBhBkEiwAtStpp5mI_NjlpvWW82rV70eqydeg0xKKqXrIVNze3uNBJ8jGSW1DMweSexoC_OQQAvD_BwE)**
 - $20 per card, free sample
 - 5-10 business day turnaround
+- LOL Scam - Free sample doesn't exist, $20 per card after $600 setup fee
 
 Just found these guys now, not sure how I missed them, might order the sample just to see what they're about, seems to good to be true.
