@@ -41,7 +41,6 @@ Create a single task with two triggers:
 - **On schedule** — Runs hourly to make sure it doesn't get caught out
 - **At startup** — handles cases where the machine was off when a trigger fired
 
-
 The startup trigger ensures the account state is correct regardless of when the machine was last on — the script checks the current time and enables or disables accordingly.
 
 ### Script for that
@@ -55,7 +54,7 @@ $triggerStartup = New-ScheduledTaskTrigger -AtStartup
 $triggerHourly  = New-ScheduledTaskTrigger -Once -At (Get-Date) `
     -RepetitionInterval (New-TimeSpan -Hours 1)
 
-$settings   = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 5)
+$settings   = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 1)
 $principal  = New-ScheduledTaskPrincipal -UserId "SYSTEM" -RunLevel Highest
 
 Register-ScheduledTask -TaskName "Set-LocalAccountHours" `
