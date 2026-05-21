@@ -25,7 +25,7 @@ $nonAdminUsers = Get-LocalUser | Where-Object {
     (Get-LocalGroupMember -SID $adminSids[0] -ErrorAction SilentlyContinue).Name -notcontains "$env:COMPUTERNAME\$($_.Name)"
 }
 
-if ($day -ne 'Saturday' -and $day -ne 'Sunday' -and $hour -ge 8 -and $hour -lt 18) {
+if ($day -ne 'Saturday' -and $day -ne 'Sunday' -and ($hour -ge 6 -and $hour -lt 21)) {
     $nonAdminUsers | Enable-LocalUser
 } else {
     $nonAdminUsers | Disable-LocalUser
