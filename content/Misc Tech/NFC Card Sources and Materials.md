@@ -1,11 +1,13 @@
 ---
-category:
-date:
+category: research
+date: 2026-05-21
 publish: true
 tags:
+  - digital-card
+  - nfc
 ---
 ## Plan
-Make an NFC version of everyone at BNI's business card.
+Make an NFC version of everyone at a networking event's business card.
 
 Not looking for a marketing gimmick that ends up in a drawer. We want to give them a card that will get used, cherished, and hopefully shown to everyone they know with a cute little "Yeah my IT guy made this for me, oh yeah they're great let me give you their number"
 
