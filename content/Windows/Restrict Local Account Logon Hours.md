@@ -54,7 +54,7 @@ $triggerStartup = New-ScheduledTaskTrigger -AtStartup
 $triggerHourly  = New-ScheduledTaskTrigger -Once -At (Get-Date) `
     -RepetitionInterval (New-TimeSpan -Hours 1)
 
-$settings   = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 1)
+$settings   = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 1) -DisallowStartIfOnBatteries:$false -StopIfGoingOnBatteries:$false
 $principal  = New-ScheduledTaskPrincipal -UserId "SYSTEM" -RunLevel Highest
 
 Register-ScheduledTask -TaskName "Set-LocalAccountHours" `
@@ -66,6 +66,8 @@ Register-ScheduledTask -TaskName "Set-LocalAccountHours" `
 ```
 
 ## Create the script via RMM etc
+
+### All non-admin accounts
 ```powershell
 $dir = "C:\ProgramData\Scripts"
 if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir | Out-Null }
@@ -87,6 +89,27 @@ if ($day -ne 'Saturday' -and $day -ne 'Sunday' -and ($hour -ge 6 -and $hour -lt 
     $nonAdminUsers | Disable-LocalUser
 }
 '@
+
+Set-Content -Path "$dir\Set-LocalAccountHours.ps1" -Value $content -Encoding UTF8
+```
+
+### Single named account (Ninja — uses `$env:accountname` variable)
+```powershell
+$dir = "C:\ProgramData\Scripts"
+if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir | Out-Null }
+
+$content = @"
+`$hour = (Get-Date).Hour
+`$day  = (Get-Date).DayOfWeek
+
+`$accounts = @("$env:accountname")
+
+if (`$day -ne 'Saturday' -and `$day -ne 'Sunday' -and (`$hour -ge 6 -and `$hour -lt 21)) {
+    `$accounts | ForEach-Object { Enable-LocalUser -Name `$_ }
+} else {
+    `$accounts | ForEach-Object { Disable-LocalUser -Name `$_ }
+}
+"@
 
 Set-Content -Path "$dir\Set-LocalAccountHours.ps1" -Value $content -Encoding UTF8
 ```
