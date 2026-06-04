@@ -10,7 +10,7 @@ tags:
 
 ## and I'm sorry
 
-this has got to be one of my weirdest hobbies to date, which is really saying something cause I used to cut myself.
+this has got to be one of my weirdest hobbies to date, which is really saying something cause I used to cut myself, I still do, but I used to too
 
 much is written by me, much by Claude, hopefully you can figure out which is which.
 
