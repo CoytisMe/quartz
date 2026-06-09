@@ -30,6 +30,25 @@ or just put something here, if it's not atrocious it'll get published below.
 </form>
 
 ---
+### 06-06-26
+#### name:
+Dan
+#### they say:
+Publish your PowerShell stuff. Kthanks
+#### I say: 
+2 things:
+1. It's on the list, the documentation is all kinds of fuck, and 50% not mine so I need clearance (I think?) it's a ton of stuff tho, I might see if I can publish the Claude arguing in notes passed back and forth, 10/10 content
+   
+2. I will pump out the link to install the thing once my *collaborator* pushes the 7 or so goddamn updates I've merged over the last two weeks to the PSGallery, right now I'm running off a git clone. **edit: It's github, you also can git clone it if you wanna.**
+
+[This is a link to Spellbook on Github](https://github.com/Big-Bronson/Spellbook)
+   
+   also edit: changing the name to spellbook wasn't my idea, still not sold that it's better than 'Steves-Scriptorium'. The hell am I to talk though I would've come up with an equally unsettling factory based name. 'Invoke' is a cool call word, 'inv' is a fucking elite one
+
+   **2 again:** 
+   I literally have a fucking rule set to move the notis from this form to my inbox because it refused to accept that their not spam and it's still spamming them, I sorry, blame microsoft
+
+---
 ### 03-06-26
 #### name:
 Fucker use this shit
