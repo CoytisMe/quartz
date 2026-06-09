@@ -6,9 +6,9 @@ tags:
   - quartz
   - index
 ---
-## Welcome 
+# Welcome 
 
-## and I'm sorry
+# and I'm sorry
 
 this has got to be one of my weirdest hobbies to date, which is really saying something cause I used to cut myself, I still do, but I used to too
 
@@ -30,7 +30,7 @@ or just put something here, if it's not atrocious it'll get published below.
 </form>
 
 ---
-### 06-06-26
+## 06-06-26
 #### name:
 Dan
 #### they say:
@@ -49,7 +49,7 @@ Publish your PowerShell stuff. Kthanks
    I literally have a fucking rule set to move the notis from this form to my inbox because it refused to accept that their not spam and it's still spamming them, I sorry, blame microsoft
 
 ---
-### 03-06-26
+## 03-06-26
 #### name:
 Fucker use this shit
 #### they say:
@@ -66,7 +66,7 @@ And big respect on the use of Edge
 
 ---
 
-### 30-05-26
+## 30-05-26
 #### name:
 budz
 #### they say:
@@ -77,7 +77,7 @@ No idea if emojis work but we will not be finding out if I'm from that town <3
 
 ---
 
-### 28-05-26
+## 28-05-26
 #### name:
 *blank*
 #### they say:
