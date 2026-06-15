@@ -52,10 +52,6 @@ Delete the contents of the resulting folder
 
 Restart (not shut down) your PC.
 
-
-`Computer\HKEY_CURRENT_USER\Software\Classes\CLSID\{48782065-C5A6-4245-BAAB-8CDBF8DCC7E9}
-
-
 ## Reg Keys
 
 **Quick Access**
