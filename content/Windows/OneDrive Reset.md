@@ -4,7 +4,7 @@ tags:
   - onedrive
   - troubleshooting
 date: 2026-05-27
-source: "[[Dailys/2026/05/27-05-26]]"
+source: "[[27-05-26]]"
 publish: true
 ---
 # OneDrive Reset
