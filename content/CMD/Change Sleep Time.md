@@ -14,7 +14,7 @@ publish: true
 ## This is the only one you really want
 **Turns off sleep while plugged.**
 ~~~
-powercfg /x -standby-timeout-ac 0
+powercfg /x standby-timeout-ac 0
 ~~~
 
 
