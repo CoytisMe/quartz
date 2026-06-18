@@ -1,6 +1,6 @@
 ---
 category: how-to
-title: The Coversation
+title: That Conversation
 date: 2026-06-18
 publish: true
 tags:
@@ -25,7 +25,7 @@ It ended up being as interesting and hilarious, only a short back and forth, I'l
 
 ## Here's the full 'convo'
 
-[[1. SteveClaude's Guide]]
-[[2. MyClaude Critiques]]
-[[3. SteveClaude Respond]]
-[[4. MyClaude Respond]]
+- [[1. SteveClaude's Guide]]
+- [[2. MyClaude Critiques]]
+- [[3. SteveClaude Respond]]
+- [[4. MyClaude Respond]]
