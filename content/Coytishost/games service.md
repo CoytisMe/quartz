@@ -76,7 +76,7 @@ cd /opt/factorio && docker compose restart
 
 Satisfactory dedicated server via SteamCMD, running as the `steam` user (required — server refuses to run as root).
 
-Me and Bronson, it's a save we start right Diablo 4 released something and then get a job, I keep the server alive like a civil war era woman keeping her front porch lit in vane hope of a knock on the door freeing her from the moniker of 'widow'.
+Twas for Bronson and I, a save we started right before Diablo 4 released something and then he got a job. I keep the server alive like a civil war era woman keeping her front porch lit in vain hope of a knock on the door freeing her from the moniker of 'widow'.
 
 | | |
 |---|---|

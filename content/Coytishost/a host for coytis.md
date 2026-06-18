@@ -22,7 +22,7 @@ This server is 90% we telling clause what I was, the SSH credentials, setting it
 ## Pages
 - [[coytishost & Proxmox]]
   the base of it all
-- [[Game Servers]]
+- [[games service]]
   this would be the best part if any of us played games anymore
 - [[my disposable windows]]
   i did not expect this to be as awesome as it is, fav part by far, I hate myself for thinking that
