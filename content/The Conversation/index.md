@@ -26,7 +26,7 @@ So I did this:
 ![[index.md.png]]
 
 
-It ended up being as interesting and hilarious, only a short back and forth, I'll put the 4 notes in their entirety below. I just wanted to share the very first line of the my Claude's first critique because the sass was eye watering.
+It ended up being as interesting and hilarious as I indicated earlier, hence me using those terms. It was only a short back and forth, I'll put the 4 notes in their entirety below. I just wanted to share the very first line of the my Claude's first critique because the sass was eye watering.
 
 ![[index.md-1.png]]
 
