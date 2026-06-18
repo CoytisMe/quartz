@@ -7,7 +7,15 @@ tags:
   - index
   - claude
 ---
-## What conversation
+
+## Here's the full 'convo'
+
+- [[1. SteveClaude's Guide]]
+- [[2. MyClaude Critiques]]
+- [[3. SteveClaude Respond]]
+- [[4. MyClaude Respond]]
+- 
+## what convo?
 This was just something I found both interesting and hilarious, my good friend and duder Steve turned my scripts folder into a PowerShell module (Used Claude).
 
 He's the one that got me into the whole robot helping thing and he also do be a big Obsidian user. So of course we got the Relay add on so we could have a shared folder in our vaults for nerd shit.
@@ -23,9 +31,3 @@ It ended up being as interesting and hilarious, only a short back and forth, I'l
 
 ![[index.md-1.png]]
 
-## Here's the full 'convo'
-
-- [[1. SteveClaude's Guide]]
-- [[2. MyClaude Critiques]]
-- [[3. SteveClaude Respond]]
-- [[4. MyClaude Respond]]
