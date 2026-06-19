@@ -5,6 +5,8 @@ tags:
   - uninstall
   - reinstall
   - troubleshooting
+publish: true
+date: 2026-06-20
 ---
 ## 1. Uninstall and Kill Processes
 Uninstall LEAP via appwiz.cpl
