@@ -10,10 +10,10 @@ tags:
 
 ## Here's the full 'convo'
 
-- [[1. SteveClaude's Guide]]
-- [[2. MyClaude Critiques]]
-- [[3. SteveClaude Respond]]
-- [[4. MyClaude Respond]]
+1. [[SteveClaude's Guide]]
+2. [[MyClaude Critiques]]
+3. [[SteveClaude Respond]]
+4. [[MyClaude Respond]]
 ## what convo?
 This was just something I found both interesting and hilarious, my good friend and duder Steve turned my scripts folder into a PowerShell module (Used Claude).
 

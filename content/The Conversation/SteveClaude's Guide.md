@@ -24,17 +24,17 @@ By the end of this guide your project will be:
 
 ## Table of Contents
 
-- [Before You Start](1.%20SteveClaude's%20Guide.md#before-you-start)
-- [Folder Structure](1.%20SteveClaude's%20Guide.md#folder-structure)
-- [The Module File (.psm1)](1.%20SteveClaude's%20Guide.md#the-module-file-psm1)
-- [The Manifest (.psd1)](1.%20SteveClaude's%20Guide.md#the-manifest-psd1)
-- [Install and Publish Scripts](1.%20SteveClaude's%20Guide.md#install-and-publish-scripts)
-- [Testing Locally](1.%20SteveClaude's%20Guide.md#testing-locally)
-- [Setting Up GitHub](1.%20SteveClaude's%20Guide.md#setting-up-github)
-- [Publishing to PS Gallery](1.%20SteveClaude's%20Guide.md#publishing-to-ps-gallery)
-- [Ongoing Workflow](1.%20SteveClaude's%20Guide.md#ongoing-workflow)
-- [Common Errors and Fixes](1.%20SteveClaude's%20Guide.md#common-errors-and-fixes)
-- [Quick Reference](1.%20SteveClaude's%20Guide.md#quick-reference)
+- [Before You Start](SteveClaude's%20Guide.md#before-you-start)
+- [Folder Structure](SteveClaude's%20Guide.md#folder-structure)
+- [The Module File (.psm1)](SteveClaude's%20Guide.md#the-module-file-psm1)
+- [The Manifest (.psd1)](SteveClaude's%20Guide.md#the-manifest-psd1)
+- [Install and Publish Scripts](SteveClaude's%20Guide.md#install-and-publish-scripts)
+- [Testing Locally](SteveClaude's%20Guide.md#testing-locally)
+- [Setting Up GitHub](SteveClaude's%20Guide.md#setting-up-github)
+- [Publishing to PS Gallery](SteveClaude's%20Guide.md#publishing-to-ps-gallery)
+- [Ongoing Workflow](SteveClaude's%20Guide.md#ongoing-workflow)
+- [Common Errors and Fixes](SteveClaude's%20Guide.md#common-errors-and-fixes)
+- [Quick Reference](SteveClaude's%20Guide.md#quick-reference)
 
 ---
 
