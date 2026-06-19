@@ -7,7 +7,6 @@ tags:
   - adobe
 title: Adobe
 ---
-# Adobe
 My convo with clients is very simple, do you need to fill out PDFs or just look at them?
 
 Yes - Use Adobe
