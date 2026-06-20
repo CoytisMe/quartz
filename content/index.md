@@ -16,7 +16,7 @@ much is written by me, much by Claude, hopefully you can figure out which is whi
 
 #### Questions? Complaints? Try your luck at enquiries@coytis.me
 
-or just put something here, if it's not atrocious it'll get published below.
+or just put something here if you don't have an email address. if it's not atrocious it'll get published below.
 
 <form action="https://formspree.io/f/mlgvwpda" method="POST" style="margin-top:0.5rem;">
   <input type="text" name="name" placeholder="name (optional)"
