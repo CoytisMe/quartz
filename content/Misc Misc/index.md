@@ -13,6 +13,6 @@ Needed somewhere to put the more random stuff.
 
 #### One thing you'll see in here is 'research' notes. 
 
-AI is great and all but don't let it be your single source of truth or you'll slowly but surely become retarded, or more retarded in your case. 
+AI is great and all but if you let it be your single source of truth it will turn you into a retard, or in your case, more of a retard.
 
-My strategy when I wanna do some learning is to get claude to run it down into a note and emphasise link to what it says at the bottom. Gives a good starting point but prevents you becoming a dumb.
+My strategy when I wanna do some learning is to get Claude to run it down into a note and emphasise links to what it says at the bottom. Gives a good starting point but prevents you becoming a dumb.
