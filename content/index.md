@@ -30,6 +30,15 @@ or just put something here if you don't have an email address. if it's not atroc
 </form>
 
 ---
+## 21-06-26
+#### name:
+Bigbronson
+Can you please add a page on the most optimal way to stack 17 squares. 
+#### I say: 
+
+[[BoxStack|You should be at least a little ashamed of yourself for this question]]
+
+---
 ## 06-06-26
 #### name:
 Dan
@@ -47,7 +56,7 @@ Publish your PowerShell stuff. Kthanks
 
    **2 again:** 
    I literally have a fucking rule set to move the notis from this form to my inbox because it refused to accept that their not spam and it's still spamming them, I sorry, blame microsoft
-
+   
 ---
 ## 03-06-26
 #### name:
