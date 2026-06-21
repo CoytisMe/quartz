@@ -33,7 +33,6 @@ or just put something here if you don't have an email address. if it's not atroc
 ## 21-06-26
 #### name:
 Bigbronson
-
 #### they say:
 
 Can you please add a page on the most optimal way to stack 17 squares. 

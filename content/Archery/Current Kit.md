@@ -1,6 +1,6 @@
 ---
 category: reference
-publish: false
+publish: true
 tags:
   - archery
   - bows
