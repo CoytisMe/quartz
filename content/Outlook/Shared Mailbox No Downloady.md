@@ -17,4 +17,5 @@ If they're already downloaded then Outlook is going to freak the fuck out, give 
 
 File > Account Settings > Account Settings > Double Click the account > More Settings > Advanced > Uncheck 'Download Shared Folders' > Click OK > Restart Outlook.
 
+
 ![[Shared Mailbox No Downloady.png]]
