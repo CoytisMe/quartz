@@ -29,6 +29,7 @@ This server however is 90% me telling clause what I want, setting it to auto and
   this would be the best part if any of us played games anymore
 - [[my disposable windows]]
   i did not expect this to be as awesome as it is, fav part by far, I hate myself for thinking that
+	  related and also in here: [[Rename on first boot]]
 - [[The Jellyfin Stack]]
   This is very cool, only reason I say the windows stuff is better is that I dont watch stuff, but the Jellyfin is for the homies and that works for me
 

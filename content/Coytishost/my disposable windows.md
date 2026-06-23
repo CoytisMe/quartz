@@ -103,6 +103,11 @@ Register-ScheduledTask -TaskName "RenameOnClone" -Action $action -Trigger $trigg
 
 ---
 
+## Rename on First Boot
+[[Rename on first boot|Covered here]]
+
+---
+
 ### Day-to-Day: New and Delete Scripts
 
 Scripts live at `C:\Users\Rick\Scripts\` and are launched via PowerToys Run.
