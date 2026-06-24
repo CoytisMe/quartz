@@ -6,6 +6,12 @@ tags:
   - json
   - theme
 ---
+## How to add them
+
+squint if you gotta, i dont really care.
+
+![[Powershell Themes-7.png]]
+
 ## The ones I don't hate
 
 ### HaX0R_GR33N (dumb name)
@@ -24,7 +30,14 @@ tags:
 ### catppuccin-mocha
 ![[Powershell Themes-6.png]]
 ## How to change individual profile themes
+
 ![[Powershell Themes-4.png]]
+## Clankers aren't all bad
+![[Powershell Themes-1.png]]
+```powershell
+Get-ChildItem C:\Windows\System32 | Select-Object Name, Length, LastWriteTime | Format-Table -AutoSize
+```
+
 ## Just take the whole json
 **put it here:**
 %localappdata%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
@@ -99,7 +112,7 @@ tags:
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{39c7ea18-a742-4c03-a974-4ddbf9b78bbe}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "keybindings": 
     [
         {
@@ -177,7 +190,7 @@ tags:
         "list": 
         [
             {
-                "colorScheme": "Duotone Dark",
+                "colorScheme": "BlueBerryPie",
                 "experimental.retroTerminalEffect": false,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
@@ -187,7 +200,7 @@ tags:
                 "useAcrylic": true
             },
             {
-                "colorScheme": "BlueBerryPie",
+                "colorScheme": "Duotone Dark",
                 "commandline": "\"%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\"",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
@@ -255,7 +268,7 @@ tags:
     "schemes": 
     [
         {
-            "background": "#1C0C28",
+            "background": "#29123B",
             "black": "#149AC7",
             "blue": "#90A5BD",
             "brightBlack": "#04CDE3",
@@ -268,7 +281,7 @@ tags:
             "brightYellow": "#F299F2",
             "cursorColor": "#FCFAD6",
             "cyan": "#7E83CC",
-            "foreground": "#924BA6",
+            "foreground": "#9F52B5",
             "green": "#5CB1B3",
             "name": "BlueBerryPie",
             "purple": "#9D54A7",
@@ -396,13 +409,5 @@ tags:
     "themes": [],
     "windowingBehavior": "useAnyExisting"
 }
-```
-
-
-
-## Clankers aren't all bad
-![[Powershell Themes-1.png]]
-```powershell
-Get-ChildItem C:\Windows\System32 | Select-Object Name, Length, LastWriteTime | Format-Table -AutoSize
 ```
 

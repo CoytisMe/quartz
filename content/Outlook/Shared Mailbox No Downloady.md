@@ -9,6 +9,7 @@ tags:
   - email
 ---
 ## Saves space, Stops PSTs breaking
+
 Some places have hilariously large shared mailbox that are guaranteed to fuck your PST. Set them not to cache
 
 **This setting is per profile, it will need to be set again if you make a new one.**

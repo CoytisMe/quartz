@@ -8,7 +8,7 @@ tags:
 date: 2026-04-29
 publish: true
 ---
-## Similar to the [[Tech/Misc Misc/Bipolar I vs Bipolar II|Bipolar I vs Bipolar II]] note I just decided to actually look into it
+## Similar to the [[KB/Misc Misc/Bipolar I vs Bipolar II|Bipolar I vs Bipolar II]] note I just decided to actually look into it
 
 I'd always felt that self harm tracked hard with addiction behaviorally, and I'd also assumed to know why I most of my feels around it where that of warm and fuzzy nostalgia.
 
