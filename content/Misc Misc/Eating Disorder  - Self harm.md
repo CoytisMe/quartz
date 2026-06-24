@@ -1,7 +1,7 @@
 ---
 category: research
 date: 2026-06-21
-publish: false
+publish: true
 tags:
   - health
   - eating-disorder
