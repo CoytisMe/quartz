@@ -1,7 +1,7 @@
 ---
 category: work-note
 date: 2026-06-03
-publish: false
+publish: true
 tags:
   - dmarc
   - email

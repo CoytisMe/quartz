@@ -7,6 +7,7 @@ tags:
   - fix
 date: 2026-05-11
 source: "[[11-05-26]]"
+publish: true
 ---
 # Adobe Acrobat Reader Mode Fix
 

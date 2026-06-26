@@ -10,3 +10,9 @@ User:
 coytis
 Pass:
 linuxvmpass
+
+Remote Access:
+User:
+coytisremote
+Pass:
+ubunturemote

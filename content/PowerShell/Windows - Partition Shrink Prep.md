@@ -7,6 +7,7 @@ tags:
   - bitlocker
   - proxmox
 date: 2026-05-29
+publish: true
 ---
 # Windows Partition Shrink Prep
 

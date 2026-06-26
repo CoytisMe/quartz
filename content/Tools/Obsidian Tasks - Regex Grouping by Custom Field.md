@@ -5,6 +5,7 @@ tags:
   - tasks-plugin
   - regex
 date: 2026-04-01
+publish: true
 ---
 # Obsidian Tasks — Regex Grouping by Custom Field
 
@@ -20,8 +21,8 @@ Append `|| Client Name` to the end of any task you want grouped. Tasks without i
 
 **Task format:**
 ```
-- [ ] Rick to build a simple 'Clients' SharePoint Team Site || My Expert
-- [ ] Follow up on printer issue || Bayside
+- [ ] Rick to build a simple 'Clients' SharePoint Team Site || LeClient
+- [ ] Follow up on printer issue || LeCock
 - [ ] General unassigned task
 ```
 
