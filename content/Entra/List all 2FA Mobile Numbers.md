@@ -1,14 +1,16 @@
 ---
-category: script
+category: tech
+date: 2026-06-29
+publish: true
 tags:
   - powershell
   - entra
   - mfa
   - users
   - graph-api
-publish: true
 ---
 This will give you a CSV of what mobile number each account is using for 2FA
+
 ```powershell
 # Connect to Microsoft Graph
 Connect-MgGraph -Scopes "User.Read.All","UserAuthenticationMethod.Read.All"
@@ -33,3 +35,6 @@ $results = foreach ($user in $users) {
 $results | Format-Table -AutoSize
 $results | Export-Csv -Path "C:\Temp\MFA_Phone_Numbers.csv" -NoTypeInformation
 ```
+
+also... [[Script Commands]]
+also... [[How to TAP in]]

@@ -67,3 +67,6 @@ Get-Module Microsoft.Graph.Users -ListAvailable
 - Scripts live at `C:\Users\Rick\OneDrive - Coytis\Claude\Scripts` — symlinked from `C:\Users\Rick\Scripts`
 - Exchange connects via browser (Chrome preferred for 1Password extension)
 - Graph connects via WAM popup — `-ContextScope Process` on all scripts keeps sessions isolated per tab
+
+also... [[Script Commands]]
+also... [[SSH Config and Command Palette]]

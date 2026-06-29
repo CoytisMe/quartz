@@ -39,3 +39,5 @@ Capitalised words and phrases are for emphasis and your safety and / or demarcat
    ![[Migrating Between Workspace Tenancies-3.png]]
    
    Pick settings hit go, I can't tell you how long it takes or what happens after, I may or may not update this.
+
+also... [[Getting into a Google Account]]

@@ -1,12 +1,13 @@
 ---
-category: script
+category: tech
+date: 2026-06-29
+publish: true
 tags:
   - powershell
   - entra
   - licensing
   - users
   - graph-api
-publish: true
 ---
 For list only showing licensed or not
 
@@ -22,4 +23,4 @@ Export CSV is fucked, but copy paste into Excel works if you change the format-t
 
 There a version of this that works in [[Script Commands]]
 
-
+also... [[List all 2FA Mobile Numbers]]

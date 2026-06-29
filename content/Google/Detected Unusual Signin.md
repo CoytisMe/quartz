@@ -1,5 +1,6 @@
 ---
-category:
+category: tech
+date: 2026-06-29
 publish: true
 tags:
   - google
@@ -20,3 +21,5 @@ users > the user > security > turn off login challenge
 Not actually if it 'fixes'
 
 but it'll get you in
+
+also... [[Getting into a Google Account]]

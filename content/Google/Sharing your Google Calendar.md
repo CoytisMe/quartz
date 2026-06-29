@@ -1,5 +1,6 @@
 ---
-category:
+category: tech
+date: 2026-06-29
 publish: true
 tags:
   - google

@@ -1,7 +1,7 @@
 ---
 category: work-note
 date: 2026-06-05
-publish: false
+publish: true
 tags:
   - scripts
   - tools

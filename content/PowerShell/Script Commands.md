@@ -285,7 +285,7 @@ Enable-Mailbox (Read-Host "Enter mailbox") -AutoExpandingArchive
 ## get-licensedusers
 Produces a list of all licenced users in a tenant, also exports the list as a PST and a drops it on the desktop.
 
-There is a worst version of this [[List of Licensed Users |Here]]
+There a worst version of this [[List of Licensed Users |Here]]
 ```powershell
 if (-not (Get-MgContext)) {
     Connect-MgGraph -Scopes "User.Read.All", "Directory.Read.All" -ContextScope Process
@@ -349,3 +349,5 @@ Get-ChildItem -Path $folder -Recurse | ForEach-Object {
 Write-Host "Done."
 ```
 
+also... [[PowerShell Tips and Scripts]]
+also... [[How to TAP in]]
