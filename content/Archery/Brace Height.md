@@ -33,3 +33,4 @@ Can be adjusted live by twisting the string.
 - Low Vibration
 - Low Noise
 - Bow feels and sounds tuned / happy / as it should be
+- ![[Pasted image 20260630000910.png]]
