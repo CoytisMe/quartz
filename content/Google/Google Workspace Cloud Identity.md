@@ -1,10 +1,10 @@
 ---
-category: work-note
+category: reference
 tags:
   - google-workspace
   - cloud-identity
 date: 2026-05-18
-source: "[[18-05-26]]"
+publish: true
 ---
 Users with no active Google Workspace license can't open Google Docs.
 Set them up with a free Cloud Identity, it has docs access included.

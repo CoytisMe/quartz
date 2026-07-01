@@ -5,10 +5,11 @@ tags:
   - rmm
   - uninstall
 date: 2026-06-25
-publish: false
+publish: true
 ---
 
-# Ninja RMM Uninstall
+# Im publishing this and the related note
+The Claude follow up made me laugh
 
 Check in `C:\Program Files (x86)\NinjaOne` for an uninstaller. If it's there, it worked when the Control Panel one didn't.
 

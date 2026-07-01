@@ -7,9 +7,11 @@ tags:
   - specs
   - hardware
 date: 2026-04-15
-publish: false
+publish: true
 ---
+I was deeply confused as to why there was such a massive price difference, they and was of course because fuck you that's why.
 
+Also capitalism
 ## Key Differences
 
 | Feature | G8 ($1549) | G9 ($1399) | Winner |

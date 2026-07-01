@@ -7,9 +7,10 @@ tags:
   - tips
   - scripts
 date: 2026-04-23
+publish: true
 ---
 # PowerShell Script Tips & Tricks
-
+#### I think most of this is doubled up in other notes but fuck it we publish.
 Patterns and techniques for making scripts more reusable and user-friendly.
 
 ---

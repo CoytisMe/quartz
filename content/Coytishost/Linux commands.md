@@ -1,7 +1,7 @@
 ---
 category:
 date: 2026-06-28
-publish: false
+publish: true
 tags:
 ---
 This is gonna be very basic shit, it's just for checking the Jellyfin and restarting the target back. Writing it does as I learn it.

@@ -6,6 +6,7 @@ tags:
   - html
   - pandoc
   - freshdesk
+publish: true
 ---
 # Convert-ObsidianToHTML
 

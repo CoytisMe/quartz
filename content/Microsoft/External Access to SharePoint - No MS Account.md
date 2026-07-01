@@ -1,12 +1,14 @@
 ---
 category: how-to
-publish: false
+publish: true
 tags:
   - sharepoint
   - entra
   - external-access
 date: 2026-04-21
 ---
+Someone remind me to remind Claude to finish this.
+
 ## External Access
 ### Email one time Passcode
 People get an email invite, they click it and put in their Email, they get a one time code.

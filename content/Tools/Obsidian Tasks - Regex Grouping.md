@@ -7,8 +7,6 @@ tags:
 date: 2026-04-01
 publish: true
 ---
-# Obsidian Tasks — Regex Grouping by Custom Field
-
 ## The Problem
 
 The Tasks plugin doesn't support arbitrary custom properties on individual tasks. Adding tags per task pollutes tag searches and the tag pane. The workaround is embedding a custom identifier in the task description and using `group by function` with a regex to extract it.
