@@ -17,7 +17,7 @@ much is written by me, much by Claude, hopefully you can figure out which is whi
 - Twich = https://www.twitch.tv/coytis
 - Youtube = https://www.youtube.com/@Coytis
 - Website = https://howto.coytis.me
-- Feet Pics = https://howto.coytis.me/misc-misc/feet-pics
+- Feet Pics = https://howto.coytis.me/Misc-Misc/feet-pics
 
 **Give Me Money:** https://streamlabs.com/coytis1/tip
 ## Questions? Complaints? 
