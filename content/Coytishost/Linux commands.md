@@ -4,6 +4,10 @@ date: 2026-06-28
 publish: false
 tags:
 ---
+This is gonna be very basic shit, it's just for checking the Jellyfin and restarting the target back. Writing it does as I learn it.
+
+What like you were never a beginner? Fuck you
+
 ## Navigation
 ### CD
 Same as windows
@@ -55,3 +59,10 @@ rm -rf /path/to/folder
 Modifiers:
 -  -r removes folders recursively, 
 - -f skips the "are you sure" prompts. If it's just a single file (not a folder) you can drop the flags and just do rm filename.
+
+## Reboot
+Guess... 
+Not even sure if you need the sudo
+```bash
+sudo reboot
+```

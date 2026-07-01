@@ -15,5 +15,6 @@ No - Use anything else
 ## Content 
 - [[Adobe Reader Mode Fix]]
 - [[Adobe Email Button Issue]]
-- [[Adobe Email Button Issue]]
+- [[Adobe - Right Click Not Working]]
 - [[Adobe Kill Command]]
+- [[Adobe Save As Security Fix]]
