@@ -6,15 +6,21 @@ tags:
   - quartz
   - index
 ---
-# Welcome 
-
-# and I'm sorry
+# Welcome, and I'm sorry
 
 this has got to be one of my weirdest hobbies to date, which is really saying something cause I used to cut myself, I still do, but I used to too
 
 much is written by me, much by Claude, hopefully you can figure out which is which.
 
-#### Questions? Complaints? Try your luck at enquiries@coytis.me
+## This is also my Linktree now:
+Tiktok = https://www.tiktok.com/@thecoytis
+Twich = https://www.twitch.tv/coytis
+Youtube = https://www.youtube.com/@Coytis
+Website = https://howto.coytis.me
+
+**Give Me Money:** https://streamlabs.com/coytis1/tip
+## Questions? Complaints? 
+### Try your luck at enquiries@coytis.me
 
 or just put something here if you don't have an email address. if it's not atrocious it'll get published below.
 
