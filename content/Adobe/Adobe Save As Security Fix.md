@@ -6,7 +6,7 @@ tags:
   - security
   - fix
 date: 2026-06-30
-source: "[[Dailys/2026/06/30-06-26]]"
+source: "[[30-06-26]]"
 publish: true
 ---
 # Adobe Save As Issue — Protected Mode Fix
