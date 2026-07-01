@@ -13,10 +13,11 @@ this has got to be one of my weirdest hobbies to date, which is really saying so
 much is written by me, much by Claude, hopefully you can figure out which is which.
 
 ## This is also my Linktree now:
-Tiktok = https://www.tiktok.com/@thecoytis
-Twich = https://www.twitch.tv/coytis
-Youtube = https://www.youtube.com/@Coytis
-Website = https://howto.coytis.me
+- Tiktok = https://www.tiktok.com/@thecoytis
+- Twich = https://www.twitch.tv/coytis
+- Youtube = https://www.youtube.com/@Coytis
+- Website = https://howto.coytis.me
+- Feet Pics = https://howto.coytis.me/misc-misc/feet-pics
 
 **Give Me Money:** https://streamlabs.com/coytis1/tip
 ## Questions? Complaints? 
