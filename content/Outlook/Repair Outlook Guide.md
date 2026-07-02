@@ -6,4 +6,9 @@ tags:
   - outlook
 ---
 ## Repairing Outlook, a Drawing
-![[Repair.png]]
+
+![[Repair Outlook Guide.png]]
+
+![[Repair Outlook Guide-1.png]]
+
+![[Repair Outlook Guide-2.png]]
