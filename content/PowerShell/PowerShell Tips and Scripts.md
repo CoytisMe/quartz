@@ -164,6 +164,22 @@ if ($day -ne 'Saturday' -and $day -ne 'Sunday') { ... }
 
 ---
 
+## Read-Host and quoted paths (from Copy Path)
+
+Windows Explorer's right-click → **Copy Path** wraps the path in literal double quotes (e.g. `"C:\Users\Rick\Downloads\file.exe"`). `Read-Host` doesn't strip them — they get stored as part of the string, quote characters included. Passing that straight into a native command (`scp`, `robocopy`, etc.) fails, because it's now trying to find a file whose name literally includes `"` characters.
+
+Fix — trim the quotes, then re-quote when calling the command (so paths with spaces still work):
+
+```powershell
+$file = Read-Host "Enter file path"
+$file = $file.Trim('"')
+scp "$file" user@host:/remote/path/
+```
+
+`.Trim('"')` strips a leading/trailing `"` if present and does nothing if you paste a path without quotes — safe either way.
+
+---
+
 ## Scripts
 
 ### checkarchive.ps1
@@ -219,6 +235,28 @@ Set password never expires on all enabled local accounts. Safe to run as system 
 
 ```powershell
 Get-LocalUser | Where-Object {$_.Enabled -eq $true} | Set-LocalUser -PasswordNeverExpires $true
+```
+
+---
+
+### uploadstuff.ps1
+Upload a file to stuff.coytis.me's downloads folder. Paste a Copy Path result straight in — quotes are handled automatically.
+
+```powershell
+$file = Read-Host "Enter file path"
+$file = $file.Trim('"')
+scp "$file" rick@192.168.1.96:/opt/media/downloads/
+```
+
+---
+
+### deletestuff.ps1
+Remove a file from stuff.coytis.me's downloads folder.
+
+```powershell
+$name = Read-Host "Enter filename to delete"
+$name = $name.Trim('"')
+ssh rick@192.168.1.96 "rm /opt/media/downloads/$name"
 ```
 
 ---

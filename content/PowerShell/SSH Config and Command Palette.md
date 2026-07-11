@@ -92,6 +92,44 @@ This would open Windows Terminal directly into the SSH session. Tested and the f
 
 ---
 
+## SSH Host Keys — What They Are & Dealing With Warnings
+
+Every SSH server has a **host key** — a unique cryptographic identity generated once when the server/OS is set up. The first time you connect to a host, your SSH client saves that key's fingerprint to `known_hosts` (`C:\Users\Rick\.ssh\known_hosts`). Every connection after that, it checks the server presents the *same* key — that's what stops someone from silently swapping in a fake server and intercepting your session (a man-in-the-middle attack).
+
+**What triggers the big red "REMOTE HOST IDENTIFICATION HAS CHANGED!" warning:**
+The key the server just presented doesn't match what's saved in `known_hosts` for that hostname/IP. Two very different explanations:
+1. **Benign** — the server was rebuilt/reinstalled (fresh OS = fresh host keys), restored from a snapshot, or the IP got reassigned to a different machine. Common on home labs/VMs that get rebuilt occasionally.
+2. **Actual concern** — someone is intercepting the connection and presenting a different key (MITM). Much less likely on a private home LAN behind your own router, but not impossible if the network itself is compromised.
+
+**Don't just blindly clear `known_hosts` and reconnect — verify the new key is legitimate first.** Ideally check over a path other than the one being questioned (a different device/session, or pulling the key straight from the host if you have another way in, e.g. a Proxmox console for a VM).
+
+Get the live fingerprint a server is currently presenting:
+```powershell
+ssh-keyscan -t ed25519 <host>
+```
+
+Compare that against the fingerprint shown in the warning. To compute a SHA256 fingerprint from a raw base64 key blob yourself (useful if you want to double-check without connecting):
+```powershell
+python3 -c "
+import base64, hashlib
+key_b64 = 'PASTE_BASE64_BLOB_HERE'
+raw = base64.b64decode(key_b64)
+digest = hashlib.sha256(raw).digest()
+print('SHA256:' + base64.b64encode(digest).decode().rstrip('='))
+"
+```
+If the fingerprints match exactly, the new key is genuine — safe to proceed.
+
+**Once confirmed legitimate, clear the stale entry:**
+```powershell
+ssh-keygen -R <hostname-or-ip>
+```
+Then reconnect as normal — SSH prompts to trust the new key once, and saves it.
+
+**Real example (2026-07-07):** hit this exact warning connecting to the media server (192.168.1.96) after the Omada VLAN migration. Verified via `ssh-keyscan` from a separate, already-trusted session that the new key's fingerprint matched exactly what the warning reported — confirmed it was just a stale `known_hosts` entry (not a MITM) and cleared it safely.
+
+---
+
 ## Notes
 
 - SSH config is per-machine — each PC can point the same alias (`VMhost`) at a different IP if needed, while the `.cmd` scripts in OneDrive stay identical across both PCs.
