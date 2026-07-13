@@ -32,16 +32,16 @@ Returns Name + Parent Path. **The folder is very likely nested** (e.g. under a c
 
 ```powershell
 # check current permissions (use the FULL path incl. parent)
-Get-PublicFolderClientPermission -Identity "\Parent Folder\Inaccurate Ovulation Calendar"
+Get-PublicFolderClientPermission -Identity "\Parent Folder\"
 
 # grant access
-Add-PublicFolderClientPermission -Identity "\Parent Folder\Inaccurate Ovulation Calendar" -User user@domain.com -AccessRights PublishingEditor
+Add-PublicFolderClientPermission -Identity "\Parent Folder\Westgate? Y/N Tracking" -User user@domain.com -AccessRights PublishingEditor
 
 # if the user already has an entry, Add- errors out with "couldn't find" or already-exists - use Set- instead
-Set-PublicFolderClientPermission -Identity "\Parent Folder\Inaccurate Ovulation Calendar" -User user@domain.com -AccessRights PublishingEditor
+Set-PublicFolderClientPermission -Identity "\Parent Folder\Westgate? Y/N Tracking" -User user@domain.com -AccessRights PublishingEditor
 
 # clean up if you fat-fingered the parent container instead of the actual calendar folder
-Remove-PublicFolderClientPermission -Identity "\Parent Folder" -User user@domain.com -AccessRights PublishingEditor
+Remove-PublicFolderClientPermission -Identity "\Parent Folder\Westgate? Y/N Tracking" -User user@domain.com -AccessRights PublishingEditor
 ```
 
 Permissions **do not cascade** from parent to child - granting on the container folder does nothing for the calendar folder inside it. Easy mistake: `Get-PublicFolder -Recurse` shows the calendar's parent path, and it's tempting to just grant on that parent because the child identity string throws an error the first time (usually because you dropped the parent segment).
