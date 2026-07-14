@@ -52,4 +52,4 @@ So the file was validly signed, but Windows had no reason to trust *that* signer
 - [ ] Add the cert's thumbprint to the "trusted .rdp publishers" GPO (`gpedit.msc`) or the `TrustedCertThumbprints` registry value directly
 - [ ] Confirm whether `rdpsign.exe /sha256` and the GPO thumbprint field expect the same hash — get the SHA1 thumbprint if the policy needs it, re-sign if necessary
 - [ ] Re-test launching `WinVMGeneral.rdp` from the command palette to confirm the prompt is gone
-- [ ] If this works, consider whether it's worth doing for other frequently-launched `.rdp` files (e.g. anything else tied to [[1080Ti GPU Passthrough to WinVMGeneral]]'s WinVMGeneral box)
+- [ ] If this works, consider whether it's worth doing for other frequently-launched `.rdp` files (e.g. anything else tied to [[GPU Passthrough to Windows VM]]'s WinVMGeneral box)

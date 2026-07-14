@@ -32,8 +32,14 @@ This server however is 90% me telling clause what I want, setting it to auto and
 	  related and also in here: [[Rename on first boot]]
 - [[The Jellyfin Stack]]
   This is very cool, only reason I say the windows stuff is better is that I dont watch stuff, but the Jellyfin is for the homies and that works for me
+- [[GPU Passthrough to Windows VM]]
+  It was a plan I had once
 - [[Linux commands]]
   I'm writing them down because I'm sick of asking Claude out to reboot shit
+- [[Proxmox Terminal Commands]]
+  As above but promox
+- [[Jellyfin Custom CSS]]
+  I like it when the pretty colours match
 
 ### Fck yea
 I will not be taking a better photo
