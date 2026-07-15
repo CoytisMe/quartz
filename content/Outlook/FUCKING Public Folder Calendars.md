@@ -10,6 +10,15 @@ tags:
   - exchange
   - powershell
 ---
+#### and how they fuck you
+
+
+## Got a shared calendar?
+Belongs to no one? Not a user or a group or a share be that point or ed mailbox?
+
+## Were you bored after 1990?
+It's probably a shared folder, fuck knows who uses em but I ran into one, it's pretty simple.
+
 ## What a Public Folder calendar actually is
 
 Not a mailbox, not a shared mailbox — lives in the org's Public Folder mailbox hierarchy, a completely different object type from `Get-Mailbox`. Common legacy pattern for "shared calendars" that predates modern shared mailboxes, still everywhere in older tenants.
@@ -57,3 +66,5 @@ Permission alone never surfaces it. The user has to manually favourite the folde
 5. Switch to Calendar view - it now shows under **Other Calendars**.
 
 Once favourited on one device it seems to autopopulate into OWA and other devices on the same account after a while. If it hasn't shown up elsewhere within a day, repeat the Favorites step manually on that device.
+
+![[FUCKING Public Folder Calendars.png]]

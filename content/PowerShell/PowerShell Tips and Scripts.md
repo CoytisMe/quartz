@@ -261,6 +261,18 @@ ssh rick@192.168.1.96 "rm /opt/media/downloads/$name"
 
 ---
 
+### deletedoublejsons.ps1
+Removes duplicate `workspace*.json` files from the vault's `.obsidian` folder created by OneDrive sync conflicts. Located in Scripts / Other folder.
+
+```powershell
+$files = Get-ChildItem -Path "C:\Users\Rick\OneDrive - Coytis\Obsidian\Rick\.obsidian" -Filter workspace*.json | Where-Object Name -ne "workspace.json"
+$files | Remove-item
+```
+
+*Followup: treats the symptom, not the cause — if these conflicts keep recurring, worth checking whether Obsidian sync/OneDrive settings can reduce them, or scheduling this to run automatically on login.*
+
+---
+
 ## Notes
 
 - Scripts live at `C:\Users\Rick\Scripts` — symlinked to `OneDrive - Coytis\Scripts` so they sync across both PCs automatically
