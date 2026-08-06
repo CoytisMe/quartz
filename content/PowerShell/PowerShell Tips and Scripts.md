@@ -180,6 +180,18 @@ scp "$file" user@host:/remote/path/
 
 ---
 
+## Check when a transport rule was last modified
+
+`Get-TransportRule` doesn't show change history by default, but `WhenChanged` on the rule object tells you the last modification time.
+
+```powershell
+Get-TransportRule "Insert Rule Name" | FL Name, WhenChanged
+```
+
+Useful for confirming whether a rule was actually touched recently, e.g. when troubleshooting mail flow changes someone swears they didn't make.
+
+---
+
 ## Scripts
 
 ### checkarchive.ps1

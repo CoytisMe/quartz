@@ -7,6 +7,7 @@ tags:
 date: 2026-04-27
 publish: true
 ---
+
 # PowerShell Environment Setup
 
 Everything needed to get a fresh terminal up to speed with the scripts folder.

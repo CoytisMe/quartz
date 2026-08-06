@@ -30,14 +30,25 @@ notepad "$HOME\.ssh\config"
 
 **Example config:**
 ```
-Host VMhost
-    HostName 192.168.1.10
-    User rick
+Host vmhost
+    HostName 192.168.1.90
+    User root
     Port 22
 
-Host otherbox
-    HostName 10.0.0.5
-    User admin
+Host jellyfin
+    Hostname 192.168.1.96
+    user rick
+    port 22
+
+Host mcserver
+    Hostname 192.168.1.92
+    user root
+    port 22
+	
+Host target
+    Hostname 192.168.1.95
+    user coytis
+    port 22
 ```
 
 Once set up, `ssh VMhost` works anywhere — terminal, PowerToys Run, scripts.
