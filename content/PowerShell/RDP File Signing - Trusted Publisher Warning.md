@@ -1,7 +1,7 @@
 ---
 category: reference
 date: 2026-07-05
-publish: false
+publish: true
 tags:
   - rdp
   - code-signing
@@ -48,8 +48,8 @@ The signing itself worked — `rdpsign.exe` confirmed success — but the warnin
 So the file was validly signed, but Windows had no reason to trust *that* signer for *that* purpose — the prompt is doing exactly what it's designed to do until both of the above are satisfied.
 
 ## Followup
-- [ ] Import the cert into `Cert:\LocalMachine\Root` (or `TrustedPeople`) so the chain resolves: `Import-Certificate -FilePath <exported .cer> -CertStoreLocation Cert:\LocalMachine\Root`
-- [ ] Add the cert's thumbprint to the "trusted .rdp publishers" GPO (`gpedit.msc`) or the `TrustedCertThumbprints` registry value directly
-- [ ] Confirm whether `rdpsign.exe /sha256` and the GPO thumbprint field expect the same hash — get the SHA1 thumbprint if the policy needs it, re-sign if necessary
-- [ ] Re-test launching `WinVMGeneral.rdp` from the command palette to confirm the prompt is gone
-- [ ] If this works, consider whether it's worth doing for other frequently-launched `.rdp` files (e.g. anything else tied to [[GPU Passthrough to Windows VM]]'s WinVMGeneral box)
+-  Import the cert into `Cert:\LocalMachine\Root` (or `TrustedPeople`) so the chain resolves: `Import-Certificate -FilePath <exported .cer> -CertStoreLocation Cert:\LocalMachine\Root`
+-  Add the cert's thumbprint to the "trusted .rdp publishers" GPO (`gpedit.msc`) or the `TrustedCertThumbprints` registry value directly
+- Confirm whether `rdpsign.exe /sha256` and the GPO thumbprint field expect the same hash — get the SHA1 thumbprint if the policy needs it, re-sign if necessary
+- Re-test launching `WinVMGeneral.rdp` from the command palette to confirm the prompt is gone
+- If this works, consider whether it's worth doing for other frequently-launched `.rdp` files (e.g. anything else tied to [[GPU Passthrough to Windows VM]]'s WinVMGeneral box)

@@ -4,7 +4,7 @@ tags:
   - power-automate
   - notifications
 date: 2026-07-26
-publish: false
+publish: true
 ---
 ## Power Automate notification sender address
 

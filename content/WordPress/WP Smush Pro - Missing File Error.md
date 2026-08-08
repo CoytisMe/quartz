@@ -1,7 +1,7 @@
 ---
 category: work-note
 date: 2026-06-22
-publish: false
+publish: true
 tags:
   - wordpress
   - hosting
@@ -38,10 +38,10 @@ Disabled via WHM to restore the site. Checking with boss on where the licence/do
 
 ## Followup
 
-- [ ] Confirm whether client's WPMU Dev membership is active — if lapsed, we can't pull a fresh Smush Pro download
-- [ ] If membership is lapsed: replace with free [Smush](https://wordpress.org/plugins/wp-smushit/) from the WordPress plugin repo — covers basic image compression
-- [ ] If membership is active: reinstall clean copy from [WPMU Dev Hub](https://wpmudev.com/hub/plugins/) and verify no other WPMU Dev plugins have corrupt installs on the same site
-- [ ] Check if the partial update was triggered by an auto-update — consider disabling auto-updates for WPMU Dev plugins if this is a recurring risk
+- Confirm whether client's WPMU Dev membership is active — if lapsed, we can't pull a fresh Smush Pro download
+- If membership is lapsed: replace with free [Smush](https://wordpress.org/plugins/wp-smushit/) from the WordPress plugin repo — covers basic image compression
+- If membership is active: reinstall clean copy from [WPMU Dev Hub](https://wpmudev.com/hub/plugins/) and verify no other WPMU Dev plugins have corrupt installs on the same site
+- Check if the partial update was triggered by an auto-update — consider disabling auto-updates for WPMU Dev plugins if this is a recurring risk
 
 ## Notes
 

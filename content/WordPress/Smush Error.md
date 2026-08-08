@@ -1,7 +1,7 @@
 ---
 category: work-note
 date: 2026-06-24
-publish: false
+publish: true
 tags:
   - wordpress
   - hosting
@@ -10,9 +10,9 @@ tags:
   - arceyeengineering
 ---
 
-# Smush Error — arceyeengineerin
+# Smush Error — 
 
-Site: `arceyeengineerin` (cPanel/WHM)
+Site: fuckinyourmumfactory inc (cPanel/WHM)
 
 ## What Happened
 
@@ -21,15 +21,15 @@ Client's WordPress site went down with a fatal PHP error. Disabled Smush Pro via
 ## Original Error
 
 ```
-E_ERROR in /home/arceyeengineerin/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php:359
+E_ERROR in /home/fuckinyourmumfactory/public_html/wp-content/plugins/wp-smush-pro/wp-smush.php:359
 Uncaught Error: Failed opening required '...wp-smush-pro/core/backups/class-backups-controller.php'
 ```
 
 ## Resolution
 
-Smush Pro disabled via WHM → site restored. Checked in with Paddy (boss).
+Smush Pro disabled via WHM → site restored. Checked in with boss (boss).
 
-## Paddy's Response
+## Bossman Response
 
 > Yep disabling Smush was the right play. In the case of Smush you can leave it disabled — I actually just deleted the plugin from the disabled list. Smush is more for compressing and optimising large images at time of content creation so it doesn't really need to be there.
 >

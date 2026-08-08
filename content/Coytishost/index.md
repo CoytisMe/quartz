@@ -40,6 +40,8 @@ This server however is 90% me telling clause what I want, setting it to auto and
   As above but promox
 - [[Jellyfin Custom CSS]]
   I like it when the pretty colours match
+- [[Tailscale auto-enroll for temp VMs]]
+  This doesn't work btw
 
 ### Fck yea
 I will not be taking a better photo
