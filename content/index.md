@@ -35,6 +35,16 @@ or just put something here if you don't have an email address. if it's not atroc
     be sent
   </button>
 </form>
+---
+## 12-08-26
+#### name:
+El Capitan
+#### they say:
+
+![[index.png]]
+#### I say: 
+
+Good point, well made
 
 ---
 ## 21-06-26

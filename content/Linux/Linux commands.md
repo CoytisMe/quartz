@@ -50,6 +50,17 @@ Modifiers:
 
 Fun Fact: 'GREP' stands for Global Regular Expression Print
 
+## Find
+
+Find something, in subfolders and delete
+```bash
+find . -maxdepth 2 -iname "dragon.ball.z.s0*" -exec rm -rf {} +
+```
+
+Find files and move them
+```bash
+find . -type f -iname "Spider-*.mkv" -exec mv -t /mnt/media/tv/"Spider-Man*" {} +
+```
 ## rm
 Delete Stuff
 
@@ -160,14 +171,10 @@ done
 ```
 Used this on Futurama S1/S2 after Sonarr got stuck importing them - renamed, then Rescan Series in Sonarr picked them straight up. If Sonarr still says "no file to import" after that, check Activity > Queue for a stuck entry still pointing at the old download folder and remove it from there.
 
-
+## Battery Stats (Gnome)
+ SSH
+ ```bash
+ nano ~/.ssh/config
+ ```
 
 ## To look at later
-
-```bash
-find . -maxdepth 2 -iname "dragon.ball.z.s0*" -exec rm -rf {} +
-```
-
-```bash
-find . -type f -iname "Spider-*.mkv" -exec mv -t /mnt/media/tv/"Spider-Man*" {} +
-```

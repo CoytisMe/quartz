@@ -1,7 +1,7 @@
 ---
 category: reference
 date: 2026-08-09
-publish: false
+publish: true
 tags:
   - terminal
   - ssh
@@ -96,7 +96,7 @@ Short version: tmux protects the laptop end. Network death is a separate problem
 Not crash recovery — it reads saved transcripts off disk. Clean exit, dropped connection, reboot a week later, all the same.
 
 ```bash
-ssh Rick@rickstreampc.taild9faf8.ts.net
+ssh Rick@
 cd vmhost
 claude --continue    # grabs the most recent session in this folder
 claude --resume      # picker, choose from older ones

@@ -34,8 +34,6 @@ This server however is 90% me telling clause what I want, setting it to auto and
   This is very cool, only reason I say the windows stuff is better is that I dont watch stuff, but the Jellyfin is for the homies and that works for me
 - [[GPU Passthrough to Windows VM]]
   It was a plan I had once
-- [[Linux commands]]
-  I'm writing them down because I'm sick of asking Claude out to reboot shit
 - [[Proxmox Terminal Commands]]
   As above but promox
 - [[Jellyfin Custom CSS]]
@@ -44,8 +42,6 @@ This server however is 90% me telling clause what I want, setting it to auto and
   This doesn't work btw
 - [[Jellyfin Logs and Transcode Triage]]
   For when the homies say it's broken and I need to find out if it actually is
-- [[tmux and keeping sessions alive]]
-  So closing a terminal stops costing me an hour of work
 
 ### Fck yea
 I will not be taking a better photo
