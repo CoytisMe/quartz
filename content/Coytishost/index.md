@@ -42,6 +42,10 @@ This server however is 90% me telling clause what I want, setting it to auto and
   I like it when the pretty colours match
 - [[Tailscale auto-enroll for temp VMs]]
   This doesn't work btw
+- [[Jellyfin Logs and Transcode Triage]]
+  For when the homies say it's broken and I need to find out if it actually is
+- [[tmux and keeping sessions alive]]
+  So closing a terminal stops costing me an hour of work
 
 ### Fck yea
 I will not be taking a better photo

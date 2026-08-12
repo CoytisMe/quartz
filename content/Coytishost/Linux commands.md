@@ -167,3 +167,7 @@ Used this on Futurama S1/S2 after Sonarr got stuck importing them - renamed, the
 ```bash
 find . -maxdepth 2 -iname "dragon.ball.z.s0*" -exec rm -rf {} +
 ```
+
+```bash
+find . -type f -iname "Spider-*.mkv" -exec mv -t /mnt/media/tv/"Spider-Man*" {} +
+```

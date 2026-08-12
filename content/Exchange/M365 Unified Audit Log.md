@@ -109,12 +109,12 @@ Search via **Microsoft Purview → Audit** or `Search-UnifiedAuditLog` in PowerS
 
 ## Retention by Licence
 
-| Licence | UAL Retention |
-|---|---|
-| Business Basic / Standard | 90 days |
-| **Business Premium** | **180 days** |
-| E3 | 90 days |
-| E5 / Purview add-on | 1 year+ |
+| Licence                   | UAL Retention |
+| ------------------------- | ------------- |
+| Business Basic / Standard | 90 days       |
+| **Business Premium**      | **180 days**  |
+| E3                        | 90 days       |
+| E5 / Purview add-on       | 1 year+       |
 
 For longer retention, export to **Log Analytics** (costs money on ingestion but enables long-term KQL queries and Sentinel integration).
 

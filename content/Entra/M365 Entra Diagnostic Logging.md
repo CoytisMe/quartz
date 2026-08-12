@@ -19,13 +19,13 @@ Entra (Azure AD) has sign-in and audit logs that are **separate from the Unified
 
 The key logs UAL doesn't cover well:
 
-| Log | What it captures |
-|---|---|
-| `SignInLogs` | Interactive user sign-ins |
+| Log                            | What it captures                                        |
+| ------------------------------ | ------------------------------------------------------- |
+| `SignInLogs`                   | Interactive user sign-ins                               |
 | `NonInteractiveUserSignInLogs` | OAuth token refreshes, app sign-ins on behalf of a user |
-| `ServicePrincipalSignInLogs` | App-to-app, service accounts, agents |
-| `ManagedIdentitySignInLogs` | Azure managed identities |
-| `AuditLogs` | Role assignments, app registrations, consent grants |
+| `ServicePrincipalSignInLogs`   | App-to-app, service accounts, agents                    |
+| `ManagedIdentitySignInLogs`    | Azure managed identities                                |
+| `AuditLogs`                    | Role assignments, app registrations, consent grants     |
 
 For an AI agent or third-party app integration, the agent's token flows will appear in `ServicePrincipalSignInLogs` and `NonInteractiveUserSignInLogs` — not in standard sign-in logs.
 
