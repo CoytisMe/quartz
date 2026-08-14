@@ -61,6 +61,23 @@ Find files and move them
 ```bash
 find . -type f -iname "Spider-*.mkv" -exec mv -t /mnt/media/tv/"Spider-Man*" {} +
 ```
+
+Find Empty Folder
+```bash
+find . -type d -empty
+```
+
+Exclude Folders
+```bash
+find . -maxdepth 1 \( -path "./_unmatched" -o -path "./Avatar*" \) -prun
+e -o -type d -print
+```
+
+Count number of resuts
+End in | wc -l
+```bash
+find . -iname "*s21*" | wc -l
+```
 ## rm
 Delete Stuff
 

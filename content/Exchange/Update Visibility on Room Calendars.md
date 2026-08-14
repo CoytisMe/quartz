@@ -10,5 +10,5 @@ tags:
 ---
 ### Connect-ExchangeOnline
 ```powershell
-Set-MailboxFolderPermission -Identity "Boardroom@yourdomain.com:\Calendar" -User Default -AccessRights Reviewer
+Set-MailboxFolderPermission -Identity "Boardroom@yourdomain.com:\Calendar" -User Default -AccessRights Editor
 ```

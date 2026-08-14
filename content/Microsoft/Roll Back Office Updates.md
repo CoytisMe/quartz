@@ -16,9 +16,9 @@ Caused Shit?
 3. Write down this number
    ![[Roll Back Office Updates-1.png]]
 4. Open CMD as admin and do these commands
-   ```cmd
-   cd %ProgramFiles%\Common Files\Microsoft Shared\ClickToRun\
-   ```
+```cmd
+cd %ProgramFiles%\Common Files\Microsoft Shared\ClickToRun\
+```
    
 ```cmd
 OfficeC2RClient.exe /update user updatetoversion=16.0.NUMBERFROMABOVE
@@ -29,3 +29,4 @@ Office will update.
 ### Yay
 
 To stop updates landing this often in the first place, see [[Change M365 Update Channel]].
+
