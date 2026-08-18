@@ -137,6 +137,11 @@ Just the top level, don't dig into every subfolder (way less noisy on a big dire
 du -h --max-depth=1 /path/to/folder | sort -rh
 ```
 
+Add a couple of folders together
+```bash
+du -shc Anime movies tv
+```
+
 Just the biggest individual files, skip folder totals entirely:
 ```bash
 find /path/to/folder -type f -printf '%s %p\n' | sort -rn | head -30
@@ -155,7 +160,7 @@ Go easy on disk I/O while it runs (handy if something else is actively downloadi
 ```bash
 ionice -c3 nice -n19 du -ah /path/to/folder | sort -rh
 ```
-`ionice -c3` = lowest disk priority, `nice -n19` = lowest CPU priority. Won't fight other processes for resources.
+`ionice -c3` = lowest disk priority, `nice -n19` = lowest CPU priority. Won't fight other processes for resources
 
 ## Reboot
 Guess... 

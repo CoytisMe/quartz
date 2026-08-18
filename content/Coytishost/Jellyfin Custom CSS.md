@@ -17,16 +17,16 @@ Sourced from the colour scheme of `DigitalCard/variants/creator.html`.
 
 ## Colour Palette
 
-| Token | Hex | Used for |
-|---|---|---|
-| `--bg` | `#1C0C28` | Page background |
-| `--surface` | `#2A1238` | Cards, header, sidebar |
-| `--border` | `#3D1852` | Card borders, dividers |
-| `--accent` | `#9D54A7` | Buttons, active states |
-| `--accent-soft` | `#BC94B7` | Links, secondary text |
-| `--accent-glow` | `#F27EF2` | Hover glow |
-| `--text` | `#F0E8D6` | Primary text |
-| `--link-hover-bg` | `#351048` | Hover backgrounds |
+| Token             | Hex       | Used for               |
+| ----------------- | --------- | ---------------------- |
+| `--bg`            | `#1C0C28` | Page background        |
+| `--surface`       | `#2A1238` | Cards, header, sidebar |
+| `--border`        | `#3D1852` | Card borders, dividers |
+| `--accent`        | `#9D54A7` | Buttons, active states |
+| `--accent-soft`   | `#BC94B7` | Links, secondary text  |
+| `--accent-glow`   | `#F27EF2` | Hover glow             |
+| `--text`          | `#F0E8D6` | Primary text           |
+| `--link-hover-bg` | `#351048` | Hover backgrounds      |
 
 ## CSS
 
