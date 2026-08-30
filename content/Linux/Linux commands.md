@@ -7,7 +7,21 @@ tags:
 
 What like you were never a beginner? Fuck you
 
-### CD
+## Make it less capitalistic
+### Blobs (Asterisks)
+Hit any sesh with this
+```bash
+shopt -s nocaseglob
+```
+Add it to ~/.bashrc if you want it permanent
+
+### Tab Completion
+This sesh
+```bash 
+bind "set completion-ignore-case on"
+```
+Permanent: in ~/.inputrc) 
+### cd
 Same as windows
 
 Go forward
@@ -23,6 +37,7 @@ Go Back
   cd  ..
 ```
 
+---
 ## ls
 List contents of a folder
 
@@ -49,6 +64,8 @@ Modifiers:
 - `-lh` - Gives more information
 
 Fun Fact: 'GREP' stands for Global Regular Expression Print
+
+---
 
 ## Find
 
@@ -78,6 +95,8 @@ End in | wc -l
 ```bash
 find . -iname "*s21*" | wc -l
 ```
+
+---
 ## rm
 Delete Stuff
 
@@ -94,12 +113,16 @@ Modifiers:
 - -f skips the "are you sure" prompts. If it's just a single file (not a folder) you can drop the flags and just do rm filename.
 - -i confirms beforehand
 
+---
+
 ## mkdir
 Makes a folder
 ```shell
 mkdir /path/to/folder
 ```
 
+
+---
 ## mv
 Renames a file (also used to move it somewhere else)
 
@@ -112,6 +135,7 @@ Move to another folder:
 mv /path/to/file /new/path/
 ```
 
+---
 ## File size
 How big is this thing
 
@@ -126,7 +150,7 @@ du -sh /path/to/folder
 
 Every file and folder inside, biggest first:
 ```bash
-du -ah /path/to/folder | sort -rh | head -50
+du -ah | sort -rh | head -50
 ```
 - `du -ah` - disk usage, **a**ll files (not just folders), **h**uman-readable sizes (K/M/G instead of raw bytes)
 - `sort -rh` - sort by size, **r**everse (biggest first), **h** tells sort to read "1.2G" as a size instead of just text
@@ -162,6 +186,8 @@ ionice -c3 nice -n19 du -ah /path/to/folder | sort -rh
 ```
 `ionice -c3` = lowest disk priority, `nice -n19` = lowest CPU priority. Won't fight other processes for resources
 
+---
+
 ## Reboot
 Guess... 
 Not even sure if you need the sudo
@@ -175,11 +201,37 @@ Edits text files
 sudo nano /path/to/folder
 ```
 
+---
+
 ## cat
 Reads text files 
 ```shell
 sudo cat /path/to/folder
 ```
+
+---
+
+## chown
+Changed file ownership
+See [[Understanding chmod and File Permissions]]
+
+---
+
+## Battery Stats (Gnome)
+```bash
+gnome-battery-statistics
+```
+
+ ## SSH
+ ```bash
+ nano ~/.ssh/config
+ ```
+
+---
+
+## To look at later
+
+---
 
 ## Batch rename old scene-release rips to SxxExx
 For those ancient torrent releases named like `futurama.101-lol.avi` (season digit + 2-digit episode, no `SxxExx` anywhere) so Sonarr can actually recognise them after a manual move/rescan.
@@ -193,14 +245,3 @@ done
 ```
 Used this on Futurama S1/S2 after Sonarr got stuck importing them - renamed, then Rescan Series in Sonarr picked them straight up. If Sonarr still says "no file to import" after that, check Activity > Queue for a stuck entry still pointing at the old download folder and remove it from there.
 
-## Battery Stats (Gnome)
-```bash
-gnome-battery-statistics
-```
-
- ## SSH
- ```bash
- nano ~/.ssh/config
- ```
-
-## To look at later
