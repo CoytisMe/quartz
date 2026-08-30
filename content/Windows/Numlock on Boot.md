@@ -6,7 +6,7 @@ tags:
   - keyboard
 date: 2026-08-27
 publish: false
-source: "[[Dailys/2026/08/27-08-26]]"
+source: "[[27-08-26]]"
 ---
 # Set Numlock State on Boot
 

@@ -15,4 +15,4 @@ publish: false
 - Right-click on "Computer Management (Local)"
 - Search for and connect to the target PC
 
-Source: [[Dailys/2026/08/25-08-26]]
+Source: [[25-08-26]]

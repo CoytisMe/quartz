@@ -32,4 +32,4 @@ This resets the OneAuth credential cache for Word specifically — if the same e
 
 Same underlying cause confirmed: can't log in because another user from the same org is already signed in on the device. Next thing to try — the official [Microsoft Office Removal Tool for Mac](https://support.microsoft.com/en-us/microsoft-365-activation-licensing/how-to-remove-office-license-files-on-a-mac), which clears license files more thoroughly than the OneAuth cache reset above. Given the OneAuth reset already failed once (old macOS, 11.7.11), this is worth trying next — full removal rather than a targeted cache clear.
 
-Source: [[Dailys/2026/08/24-08-26]]
+Source: [[24-08-26]]
