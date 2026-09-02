@@ -5,7 +5,7 @@ tags:
   - active-directory
   - server
 date: 2026-08-25
-publish: false
+publish: true
 ---
 # Affecting AD Computers from the Server
 
@@ -15,4 +15,4 @@ publish: false
 - Right-click on "Computer Management (Local)"
 - Search for and connect to the target PC
 
-Source: [[25-08-26]]
+

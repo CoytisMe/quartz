@@ -5,7 +5,7 @@ tags:
   - registry
   - keyboard
 date: 2026-08-27
-publish: false
+publish: true
 source: "[[27-08-26]]"
 ---
 # Set Numlock State on Boot

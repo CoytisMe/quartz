@@ -19,3 +19,8 @@ Get-LocalUser | Set-LocalUser -PasswordNeverExpires $true
 ```powershell
 Set-LocalUser -Name $env:USERNAME -PasswordNeverExpires $true
 ```
+
+### Another way
+```cmd
+net accounts /maxpwage:unlimited
+```
