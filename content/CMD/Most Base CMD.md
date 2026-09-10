@@ -37,3 +37,13 @@ Note: The /r means restart, the /t 0 means ‘In 0 seconds’ and the /f means f
 sfc/scannow
 ```
 It does something I think, mostly it just leaves a processing CMD window on the client screen. Great if you want to get a coffee, nobody questions a processing CMD window.
+
+## Write text to a file
+Put text into a new file:
+```cmd
+echo type what you want here > C:\myfile.txt
+```
+Add text to an existing file (append instead of overwrite):
+```cmd
+echo type what you want here >> C:\myfile.txt
+```

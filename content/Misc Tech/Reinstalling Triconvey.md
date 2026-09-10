@@ -20,9 +20,11 @@ You gotta reinstall with both hands.
 
 4. Open the Windows Task Tray and close the Smokeball Tray Icon from there. Otherwise, exit the Smokeball process from the Task Manager.
 
-5. Clear all DB files from C:\Program Files\Smokeball\dataAu.
+5. Delete C:\Program Files\Smokeball\
+   
+6. Delete %localappdata%\Smokeball
 
-6. Uninstall triConvey from the Windows Apps & features window.
+7. Uninstall triConvey from the Windows Apps & features window.
 
 
 ## To reinstall triConvey:

@@ -82,7 +82,7 @@ $env:PATH -split ';'
 
 **Add a folder to PATH (user-level, persists across sessions):**
 ```powershell
-[Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";C:\Users\Rick\Scripts", "User")
+[Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";C:\Users\Rick\localscripts", "User")
 ```
 
 Restart the terminal (and PowerToys) after changing PATH for it to take effect.

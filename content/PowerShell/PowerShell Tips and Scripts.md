@@ -283,6 +283,18 @@ $files | Remove-item
 
 *Followup: treats the symptom, not the cause — if these conflicts keep recurring, worth checking whether Obsidian sync/OneDrive settings can reduce them, or scheduling this to run automatically on login.*
 
+
+## Search and Show File Size
+Search
+```powershell
+get-childitem -path "C:\Users\Paul\appdata" -filter "*.ost" -Recurse -file
+```
+
+Search and show file size
+```powershell
+Get-ChildItem -path C:\Users\Paul\appdata -filter "*.ost" -File -Recurse | Select-Object Name, @{Name="Size (MB)"; Expression={"{0:N2}" -f ($_.Length / 1MB)}}
+```
+
 ---
 
 ## Notes

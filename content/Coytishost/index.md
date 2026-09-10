@@ -42,6 +42,8 @@ This server however is 90% me telling clause what I want, setting it to auto and
   This doesn't work btw
 - [[Jellyfin Logs and Transcode Triage]]
   For when the homies say it's broken and I need to find out if it actually is
+- [[Pi Zero Dashboard Kiosk|The Dashboard Kiosk]] and [[Homepage Dashboard Screenshotter (Playwright)|Pt. 2 - The Screenshotter]]
+  This would've been rad if the PC it was on was worth more than $20
 
 ### Fck yea
 I will not be taking a better photo
