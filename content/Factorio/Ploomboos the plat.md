@@ -5,8 +5,8 @@ publish: true
 tags:
   - factorio
   - games
-  - space-age
-  - space-platform
+  - spaceage
+  - spaceplatform
 ---
 Named for my dear friend Plumbus, God rest his soul. He's still alive, he's just tired.
 

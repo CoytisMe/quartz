@@ -47,3 +47,13 @@ Add text to an existing file (append instead of overwrite):
 ```cmd
 echo type what you want here >> C:\myfile.txt
 ```
+
+## Check external IP
+```cmd
+curl ifconfig.me
+```
+
+## Download a file with curl
+```cmd
+curl -L -o "C:\destination\path" "https://example.com/file.pdf"
+```

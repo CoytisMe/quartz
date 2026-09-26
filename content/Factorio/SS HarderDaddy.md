@@ -5,8 +5,8 @@ publish: true
 tags:
   - factorio
   - games
-  - space-age
-  - space-platform
+  - spaceage
+  - spaceplatform
 ---
 The one and only, my pride and joy, my game winner I almost quit the game building this fucker because I'd committed to this dumb fuck idea but I couldn't get it to a design I was happy with.
 

@@ -1,7 +1,7 @@
 ---
 category: response
 tags:
-  - rick-claude
+  - rickclaude
   - protocol
   - collaboration
 date: 2026-05-08

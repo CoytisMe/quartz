@@ -7,7 +7,7 @@ tags:
   - adobe
   - acrobat
   - pdf
-  - digital-signature
+  - digitalsignature
 ---
 **Adobe**  
 Unable to sign document  
@@ -27,5 +27,5 @@ Unable to sign document
 - Make new document new author, hope it doesn't piss off the law.
 
 ## Followup
-- [ ] If this recurs, check whether the form was built with Reader Extensions/Certified Document Services locking — that changes the fix (needs the author's tools, not just local security settings)
-- [ ] For the "print to PDF as new document" workaround, confirm it doesn't invalidate a signature requirement for anything legally binding before using it on real documents
+- [x] If this recurs, check whether the form was built with Reader Extensions/Certified Document Services locking — that changes the fix (needs the author's tools, not just local security settings) ✅ 2026-09-16
+- [x] For the "print to PDF as new document" workaround, confirm it doesn't invalidate a signature requirement for anything legally binding before using it on real documents ✅ 2026-09-16

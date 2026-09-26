@@ -3,7 +3,7 @@ category: research
 date: 2026-05-21
 publish: true
 tags:
-  - digital-card
+  - digitalcard
   - nfc
 ---
 ## Plan

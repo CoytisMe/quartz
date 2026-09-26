@@ -5,7 +5,7 @@ tags:
   - sql
   - templates
 date: 2026-07-09
-publish: true
+publish: false
 source: "[[Dailys/2026/07/09-07-26]]"
 ---
 # HSoft Template Documents

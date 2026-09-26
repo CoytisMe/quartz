@@ -4,7 +4,7 @@ tags:
   - research
   - quartz
   - obsidian
-  - web-hosting
+  - webhosting
   - cloudflare
   - github
   - coytis

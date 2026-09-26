@@ -4,7 +4,7 @@ tags:
   - sharepoint
   - onedrive
   - sync
-  - how-to
+  - howto
 date: 2026-05-11
 publish: true
 ---

@@ -2,7 +2,7 @@
 category: response
 publish: true
 tags:
-  - rick-claude
+  - rickclaude
   - critique
   - powershell
 date: 2026-05-08

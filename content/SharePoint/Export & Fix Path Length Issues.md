@@ -2,9 +2,9 @@
 category: how-to
 tags:
   - sharepoint
-  - graph-api
+  - graphapi
   - python
-  - path-length
+  - pathlength
 date: 2026-04-15
 publish: true
 ---

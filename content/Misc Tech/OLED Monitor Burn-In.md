@@ -5,7 +5,7 @@ tags:
   - oled
   - monitors
   - hardware
-  - burn-in
+  - burnin
 date: 2026-04-03
 publish: true
 ---

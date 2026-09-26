@@ -4,7 +4,7 @@ date: 2026-06-22
 publish: true
 tags:
   - outlook
-  - shared-mailbox
+  - sharedmailbox
   - storage
   - email
 ---

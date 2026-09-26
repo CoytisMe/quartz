@@ -5,7 +5,7 @@ publish: true
 tags:
   - ssh
   - linux
-  - remote-access
+  - remoteaccess
   - security
 ---
 ## Got a Linux box set up with SSH key auth from one PC, want to SSH in from others too?

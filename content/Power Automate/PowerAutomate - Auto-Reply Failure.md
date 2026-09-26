@@ -1,7 +1,7 @@
 ---
 category: work-note
 tags:
-  - power-automate
+  - powerautomate
   - exchange
   - autoreply
   - flow

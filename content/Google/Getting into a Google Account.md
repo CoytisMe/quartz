@@ -3,11 +3,11 @@ category: tech
 date: 2026-06-29
 publish: true
 tags:
-  - google-workspace
-  - google-admin
+  - googleworkspace
+  - googleadmin
   - 2fa
-  - backup-codes
-  - account-access
+  - backupcodes
+  - accountaccess
 ---
 ## Different Philosophies
 

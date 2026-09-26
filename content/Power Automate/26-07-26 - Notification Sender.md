@@ -1,7 +1,7 @@
 ---
 category: reference
 tags:
-  - power-automate
+  - powerautomate
   - notifications
 date: 2026-07-26
 publish: true

@@ -5,7 +5,7 @@ tags:
   - exchange
   - compliance
   - holds
-  - recoverable-items
+  - recoverableitems
 publish: true
 ---
 Symptoms:

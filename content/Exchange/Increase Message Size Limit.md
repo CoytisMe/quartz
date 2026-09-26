@@ -6,7 +6,7 @@ tags:
   - powershell
   - exchange
   - attachments
-  - message-size
+  - messagesize
 ---
 
 Need bigger attachments?

@@ -4,7 +4,7 @@ date: 2026-07-02
 publish: true
 tags:
   - outlook
-  - public-folders
+  - publicfolders
   - permissions
   - calendar
   - exchange

@@ -798,20 +798,20 @@ $env:PSModulePath                                    # see module search paths
 
 Use this before first publish:
 
-- [ ] Folder name matches `.psm1` and `.psd1` filenames exactly
-- [ ] GUID generated with `[guid]::NewGuid()` and pasted into manifest
-- [ ] All manifest values use single quotes
-- [ ] No `Get-Date` or other commands in manifest
-- [ ] No em dashes, smart quotes, or apostrophes in manifest strings
-- [ ] `YOUR-USERNAME` replaced with real GitHub username in `LicenseUri` and `ProjectUri`
-- [ ] `FunctionsToExport` lists every public function
-- [ ] `Test-ModuleManifest` runs clean
-- [ ] Module loads and works locally
-- [ ] GitHub repo created, pushed
-- [ ] PS Gallery account created, API key generated
-- [ ] `Publish.ps1 -WhatIf` runs without errors
-- [ ] `Publish.ps1` runs successfully
-- [ ] `Install-Module` works after 15-30 mins
+- [x] Folder name matches `.psm1` and `.psd1` filenames exactly ✅ 2026-09-16
+- [x] GUID generated with `[guid]::NewGuid()` and pasted into manifest ✅ 2026-09-16
+- [x] All manifest values use single quotes ✅ 2026-09-16
+- [x] No `Get-Date` or other commands in manifest ✅ 2026-09-16
+- [x] No em dashes, smart quotes, or apostrophes in manifest strings ✅ 2026-09-16
+- [x] `YOUR-USERNAME` replaced with real GitHub username in `LicenseUri` and `ProjectUri` ✅ 2026-09-16
+- [x] `FunctionsToExport` lists every public function ✅ 2026-09-16
+- [x] `Test-ModuleManifest` runs clean ✅ 2026-09-16
+- [x] Module loads and works locally ✅ 2026-09-16
+- [x] GitHub repo created, pushed ✅ 2026-09-16
+- [x] PS Gallery account created, API key generated ✅ 2026-09-16
+- [x] `Publish.ps1 -WhatIf` runs without errors ✅ 2026-09-16
+- [x] `Publish.ps1` runs successfully ✅ 2026-09-16
+- [x] `Install-Module` works after 15-30 mins ✅ 2026-09-16
 
 ---
 

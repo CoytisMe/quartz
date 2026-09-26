@@ -48,7 +48,7 @@ The old template-side `RenameOnClone` scheduled task (see [[coytishost & Proxmox
 - [x] Save the hookscript below to `/var/lib/vz/snippets/tailscale-temp-enroll.sh`, `chmod +x` ✅ 2026-07-19
 - [x] `qm set 104 --hookscript local:snippets/tailscale-temp-enroll.sh` (config carries to every future clone automatically) ✅ 2026-07-19
 - [x] Spin up one test clone via `new-client-vm.ps1`, confirm it shows up on the tailnet tagged `tag:temp` without any manual sign-in ✅ 2026-07-19 — clone `Coytispass` (VM 110) enrolled clean, `tailscale status` showed it connected, `hostname` confirmed the rename stuck
-- [ ] Add a `tag:temp` rule to the Tailscale ACL policy (e.g. `tag:personal → tag:temp`, temp otherwise unable to initiate — same pattern as the existing `tag:server` rule)
+- [x] Add a `tag:temp` rule to the Tailscale ACL policy (e.g. `tag:personal → tag:temp`, temp otherwise unable to initiate — same pattern as the existing `tag:server` rule) ✅ 2026-09-17
 
 ---
 

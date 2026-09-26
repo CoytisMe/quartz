@@ -3,7 +3,7 @@ category: work-note
 date: 2026-06-10
 publish: true
 tags:
-  - power-automate
+  - powerautomate
   - tasks
   - automation
   - claude
@@ -126,4 +126,4 @@ The file doesn't need frontmatter or headings — PA only cares about the marker
 - [x] Queue file created
 - [x] PA flow built
 - [x] Tested end to end — working
-- [ ] Claude briefed to use the queue format
+- [x] Claude briefed to use the queue format ✅ 2026-09-16

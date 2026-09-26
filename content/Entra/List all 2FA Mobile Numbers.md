@@ -7,7 +7,7 @@ tags:
   - entra
   - mfa
   - users
-  - graph-api
+  - graphapi
 ---
 This will give you a CSV of what mobile number each account is using for 2FA
 

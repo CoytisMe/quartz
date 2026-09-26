@@ -3,7 +3,7 @@ category: how-to
 tags:
   - outlook
   - registry
-  - new-outlook
+  - newoutlook
 publish: true
 ---
 However, if the "New Outlook" button disappeared, try running Regedit.exe and go here (or the same with 15.0 if you don't have 16.0):

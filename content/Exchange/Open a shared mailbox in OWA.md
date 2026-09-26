@@ -3,8 +3,8 @@ category: reference
 tags:
   - exchange
   - owa
-  - shared-mailbox
-  - how-to
+  - sharedmailbox
+  - howto
 date: 2026-05-06
 publish: true
 ---

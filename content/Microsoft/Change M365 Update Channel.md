@@ -5,8 +5,8 @@ publish: true
 tags:
   - m365
   - office
-  - update-channel
-  - admin-center
+  - updatechannel
+  - admincenter
 ---
 Sets Office Apps to only update once a month as opposed to the minute they're ready.
 

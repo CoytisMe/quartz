@@ -7,7 +7,7 @@ tags:
   - entra
   - licensing
   - users
-  - graph-api
+  - graphapi
 ---
 For list only showing licensed or not
 

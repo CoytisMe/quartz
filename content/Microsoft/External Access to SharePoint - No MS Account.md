@@ -4,7 +4,7 @@ publish: true
 tags:
   - sharepoint
   - entra
-  - external-access
+  - externalaccess
 date: 2026-04-21
 ---
 Someone remind me to remind Claude to finish this.

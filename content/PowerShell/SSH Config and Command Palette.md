@@ -6,7 +6,7 @@ tags:
   - ssh
   - powershell
   - powertoys
-  - windows-terminal
+  - windowsterminal
   - tools
 ---
 

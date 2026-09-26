@@ -4,9 +4,9 @@ date: 2026-06-21
 publish: true
 tags:
   - health
-  - eating-disorder
-  - self-harm
-  - mental-health
+  - eatingdisorder
+  - selfharm
+  - mentalhealth
 ---
 ### At this point imma need a folder just for asking claude about my fucked psyche
 ## How this note happened

@@ -4,7 +4,7 @@ tags:
   - outlook
   - vba
   - automation
-  - email-filing
+  - emailfiling
 date: 2026-04-18
 ---
 # Outlook VBA Auto-Filing Macro

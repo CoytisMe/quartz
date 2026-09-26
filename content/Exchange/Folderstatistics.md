@@ -6,7 +6,7 @@ tags:
   - powershell
   - exchange
   - mailbox
-  - folder-statistics
+  - folderstatistics
 ---
 ## Find Conflicts in FolderStatistics
 

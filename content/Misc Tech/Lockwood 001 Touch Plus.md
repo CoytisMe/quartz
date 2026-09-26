@@ -3,7 +3,7 @@ category: research
 date: 2026-06-11
 publish: true
 tags:
-  - smart-lock
+  - smartlock
   - home
   - hardware
   - rfid

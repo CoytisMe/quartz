@@ -3,7 +3,7 @@ category: tech
 date: 2026-08-25
 publish: true
 tags:
-  - raspberry-pi
+  - raspberrypi
   - dashboard
   - homelab
   - playwright

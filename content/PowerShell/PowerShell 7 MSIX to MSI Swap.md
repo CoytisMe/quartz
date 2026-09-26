@@ -5,7 +5,7 @@ publish: false
 tags:
   - powershell
   - ssh
-  - stream-pc
+  - streampc
 ---
 
 # PowerShell 7 — Swap Store (MSIX) build for MSI build

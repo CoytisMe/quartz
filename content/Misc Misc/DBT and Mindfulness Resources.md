@@ -3,11 +3,11 @@ category: research
 date: 2026-06-21
 publish: true
 tags:
-  - mental-health
+  - mentalhealth
   - DBT
   - mindfulness
-  - self-directed
-  - emotional-regulation
+  - selfdirected
+  - emotionalregulation
 ---
 
 # DBT and Mindfulness — Self-Directed Resources

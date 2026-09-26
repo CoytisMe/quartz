@@ -4,7 +4,7 @@ publish: true
 tags:
   - archery
   - arrows
-  - spine-chart
+  - spinechart
 date: 2026-03-01
 ---
 Notes:

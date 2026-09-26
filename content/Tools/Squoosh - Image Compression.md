@@ -4,7 +4,7 @@ date: 2026-08-07
 publish: true
 tags:
   - images
-  - web-hosting
+  - webhosting
 ---
 Its a site caled Squoosh
 

@@ -2,9 +2,9 @@
 category: work-note
 tags:
   - powershell
-  - local-accounts
+  - localaccounts
   - security
-  - scheduled-tasks
+  - scheduledtasks
 date: 2026-05-21
 publish: true
 ---

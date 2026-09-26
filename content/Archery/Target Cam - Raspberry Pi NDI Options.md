@@ -3,8 +3,8 @@ category: personal
 tags:
   - archery
   - ndi
-  - raspberry-pi
-  - target-cam
+  - raspberrypi
+  - targetcam
 date: 2026-05-26
 publish: true
 ---

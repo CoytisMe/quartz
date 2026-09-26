@@ -3,7 +3,7 @@ category: how-to
 tags:
   - excel
   - text
-  - find-replace
+  - findreplace
 publish: true
 ---
 ## Got some data in an CSV or something?

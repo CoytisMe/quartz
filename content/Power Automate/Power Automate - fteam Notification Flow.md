@@ -1,7 +1,7 @@
 ---
 category: reference
 tags:
-  - power-automate
+  - powerautomate
   - onedrive
   - fteam
   - notifications

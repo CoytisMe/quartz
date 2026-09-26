@@ -2,7 +2,7 @@
 category: reference
 tags:
   - microsoft
-  - power-automate
+  - powerautomate
   - automation
   - outlook
 publish: true

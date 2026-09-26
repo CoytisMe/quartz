@@ -1,7 +1,7 @@
 ---
 category: research
 tags:
-  - mental-health
+  - mentalhealth
   - bipolar
   - personal
 publish: true

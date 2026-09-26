@@ -1,7 +1,7 @@
 ---
 category: reference
 tags:
-  - digital-card
+  - digitalcard
   - html
   - web
   - cloudflare

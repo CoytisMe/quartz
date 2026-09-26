@@ -3,7 +3,7 @@ category: reference
 publish: true
 tags:
   - factorio
-  - space-age
+  - spaceage
   - glory
 ---
 ## I did

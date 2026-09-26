@@ -5,7 +5,7 @@ tags:
   - onedrive
   - powershell
   - ninjaone
-  - file-explorer
+  - fileexplorer
   - sync
 date: 2026-04-01
 publish: true

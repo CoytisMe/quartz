@@ -6,7 +6,7 @@ tags:
   - email
   - outlook
   - desktop
-  - how-to
+  - howto
 ---
 ## If its first launch
 It's the first thing that pops up, just put in the email and the password, I'm not getting a screenshot for that.

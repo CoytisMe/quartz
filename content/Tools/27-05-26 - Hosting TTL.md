@@ -4,7 +4,7 @@ tags:
   - hosting
   - dns
   - microsoft
-  - domain-validation
+  - domainvalidation
 date: 2026-05-27
 source: "[[Dailys/2026/05/27-05-26]]"
 ---

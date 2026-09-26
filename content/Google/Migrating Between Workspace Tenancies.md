@@ -5,7 +5,7 @@ tags:
   - workspace
   - migration
   - gmail
-  - how-to
+  - howto
 date: 2026-05-14
 publish: true
 ---

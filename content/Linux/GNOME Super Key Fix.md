@@ -5,7 +5,7 @@ publish: true
 tags:
   - linux
   - gnome
-  - ninja-rmm
+  - ninjarmm
 source: "[[02-09-26]]"
 ---
 ## Linux

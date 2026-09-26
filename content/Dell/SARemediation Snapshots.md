@@ -4,7 +4,7 @@ publish: true
 tags:
   - dell
   - supportassist
-  - disk-space
+  - diskspace
   - storage
   - snapshots
 ---

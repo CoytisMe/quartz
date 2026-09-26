@@ -2,7 +2,7 @@
 category: how-to
 tags:
   - exchange
-  - graph-api
+  - graphapi
   - python
   - script
   - mailbox

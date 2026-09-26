@@ -2,9 +2,9 @@
 category: reference
 tags:
   - sharepoint
-  - network-drive
+  - networkdrive
   - webdav
-  - how-to
+  - howto
 date: 2026-05-12
 publish: true
 ---

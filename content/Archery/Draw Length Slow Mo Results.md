@@ -3,7 +3,7 @@ category: personal
 publish: true
 tags:
   - archery
-  - draw-length
+  - drawlength
   - measurements
 date: 2025-12-29
 ---

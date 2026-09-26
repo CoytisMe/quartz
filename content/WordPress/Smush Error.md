@@ -6,7 +6,7 @@ tags:
   - wordpress
   - hosting
   - plugins
-  - wpmu-dev
+  - wpmudev
   - arceyeengineering
 ---
 

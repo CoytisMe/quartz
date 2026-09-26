@@ -5,7 +5,7 @@ publish: true
 tags:
   - jellyfin
   - css
-  - media-server
+  - mediaserver
 ---
 
 ## I stole the colour scheme off my Coytis Page

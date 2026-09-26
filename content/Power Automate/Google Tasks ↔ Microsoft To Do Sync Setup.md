@@ -2,9 +2,9 @@
 title: Google Tasks ↔ Microsoft To Do Sync Setup
 category: Work/Power Automate
 tags:
-  - power-automate
-  - google-tasks
-  - microsoft-todo
+  - powerautomate
+  - googletasks
+  - microsofttodo
   - sync
 created: 2026-05-24
 publish: true

@@ -1,8 +1,8 @@
 ---
 category: reference
 tags:
-  - google-workspace
-  - cloud-identity
+  - googleworkspace
+  - cloudidentity
 date: 2026-05-18
 publish: true
 ---

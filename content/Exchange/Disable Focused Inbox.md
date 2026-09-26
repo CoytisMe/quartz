@@ -3,7 +3,7 @@ category: script
 tags:
   - powershell
   - exchange
-  - focused-inbox
+  - focusedinbox
 publish: true
 ---
 

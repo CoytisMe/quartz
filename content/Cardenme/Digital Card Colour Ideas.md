@@ -1,7 +1,7 @@
 ---
 category: work-note
 tags:
-  - digital-card
+  - digitalcard
   - design
   - colour
   - coytis

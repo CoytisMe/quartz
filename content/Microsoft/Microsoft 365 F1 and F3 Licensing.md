@@ -3,7 +3,7 @@ category: reference
 date: 2026-09-07
 publish: true
 tags:
-  - microsoft-365
+  - microsoft365
   - licensing
 source: "[[Dailys/2026/09/07-09-26]]"
 ---

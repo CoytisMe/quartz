@@ -29,27 +29,35 @@ sudo apt install tmux     # Ubuntu
 
 ## The basic loop
 
-Start a named session:
+Start a named session
 ```bash
 tmux new -s claude
 ```
 
-Then do whatever inside it — SSH somewhere, run a job, whatever:
+Then do whatever inside it — SSH somewhere, run a job, whatever
 ```bash
 ssh Rick@rickstreampc.taild9faf8.ts.net
 ```
 
 Detach with `Ctrl-b` then `d`. Terminal closes, session keeps running.
 
-Come back:
+Come back
 ```bash
 tmux ls                   # what sessions exist
 tmux attach -t claude     # get back in (tmux a -t claude also works)
 ```
 
-Nuke one:
+Nuke one
 ```bash
 tmux kill-session -t claude
+```
+Nuke All
+```bash
+tmux kill-server
+```
+Nuke all but the one you're in:
+```bash
+tmux kill-session -a
 ```
 
 ## Keys worth knowing

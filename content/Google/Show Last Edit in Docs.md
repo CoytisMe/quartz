@@ -4,7 +4,7 @@ publish: true
 tags:
   - google
   - googledocs
-  - last-edit
+  - lastedit
 ---
 ## need to know who fucked up the doc?
 

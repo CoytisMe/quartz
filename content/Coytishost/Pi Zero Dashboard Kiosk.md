@@ -3,10 +3,12 @@ category: tech
 date: 2026-08-24
 publish: true
 tags:
-  - raspberry-pi
+  - raspberrypi
   - dashboard
   - kiosk
 ---
+# This was superseded thank God
+[[Ubuntu Jumpbox + Dashboard Kiosk]]
 # Pi Zero Dashboard Kiosk
 
 **STATUS: WORKING**, as of 2026-08-29 — see [[Homepage Dashboard Screenshotter (Playwright)]] for the final architecture. Browser-in-kiosk approach (below) was abandoned as a dead end; the working solution renders on the LXC via Playwright and displays a static PNG on the Pi via `fbi`, no browser/X involved at all.

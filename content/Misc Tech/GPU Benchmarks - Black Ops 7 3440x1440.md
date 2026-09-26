@@ -6,7 +6,7 @@ tags:
   - gaming
   - gpu
   - benchmarks
-  - call-of-duty
+  - callofduty
 ---
 
 # GPU Benchmarks — Call of Duty: Black Ops 7

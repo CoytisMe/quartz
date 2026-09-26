@@ -2,7 +2,7 @@
 category: research
 tags:
   - psychology
-  - self-harm
+  - selfharm
   - recovery
   - research
 date: 2026-04-29

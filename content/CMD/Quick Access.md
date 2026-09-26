@@ -3,8 +3,8 @@ category: how-to
 tags:
   - cmd
   - windows
-  - file-explorer
-  - quick-access
+  - fileexplorer
+  - quickaccess
   - registry
 publish: true
 ---

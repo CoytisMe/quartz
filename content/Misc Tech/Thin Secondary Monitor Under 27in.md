@@ -4,7 +4,7 @@ date: 2026-07-07
 publish: true
 tags:
   - hardware
-  - desk-setup
+  - desksetup
 ---
 ## The goal
 

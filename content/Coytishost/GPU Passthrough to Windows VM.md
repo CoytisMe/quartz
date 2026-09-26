@@ -5,7 +5,7 @@ publish: true
 tags:
   - homelab
   - proxmox
-  - gpu-passthrough
+  - gpupassthrough
 ---
 
 ## This is defunct but nice to have for later

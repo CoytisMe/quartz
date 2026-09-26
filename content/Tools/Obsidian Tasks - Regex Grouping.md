@@ -2,7 +2,7 @@
 category: research
 tags:
   - obsidian
-  - tasks-plugin
+  - tasksplugin
   - regex
 date: 2026-04-01
 publish: true

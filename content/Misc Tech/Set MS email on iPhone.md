@@ -6,7 +6,7 @@ tags:
   - email
   - iphone
   - exchange
-  - how-to
+  - howto
 ---
 ## Settings
 ### Then Apps

@@ -5,8 +5,8 @@ publish: true
 tags:
   - factorio
   - games
-  - space-age
-  - space-platform
+  - spaceage
+  - spaceplatform
 ---
 I just thought this was one cute, it worked well for her simple job. Earned the auspicious title of being the only space platform to have been destroyed by biters.
 

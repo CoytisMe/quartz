@@ -5,8 +5,8 @@ publish: true
 tags:
   - samsung
   - android
-  - file-explorer
-  - usb-c
+  - fileexplorer
+  - usbc
 ---
 The charging notification is a button, to a menu, like it says it is, dw took me a while too.
 

@@ -4,7 +4,7 @@ date: 2026-04-20
 publish: true
 tags:
   - powershell
-  - quick-access
+  - quickaccess
   - windows
   - tips
 ---

@@ -4,10 +4,10 @@ date: 2026-07-05
 publish: true
 tags:
   - rdp
-  - code-signing
+  - codesigning
   - powershell
   - certificates
-  - command-palette
+  - commandpalette
 ---
 
 # RDP File Signing — Trusted Publisher Warning

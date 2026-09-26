@@ -4,8 +4,8 @@ date: 2026-08-08
 publish: false
 tags:
   - ssh
-  - stream-pc
-  - claude-code
+  - streampc
+  - claudecode
 ---
 
 # SSH Access — Stream PC

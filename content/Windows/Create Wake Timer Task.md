@@ -3,7 +3,7 @@ category: reference
 tags:
   - powershell
   - windows
-  - task-scheduler
+  - taskscheduler
 publish: true
 ---
 # Create Wake Timer Task
