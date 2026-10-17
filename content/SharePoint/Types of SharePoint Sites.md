@@ -2,7 +2,7 @@
 category: how-to
 tags:
   - sharepoint
-  - microsoft365
+  - m365
   - teams
   - onedrive
 date: 2026-04-01

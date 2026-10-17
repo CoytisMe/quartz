@@ -44,7 +44,7 @@ This server however is 90% me telling clause what I want, setting it to auto and
   For when the homies say it's broken and I need to find out if it actually is
 - [[Pi Zero Dashboard Kiosk|The Dashboard Kiosk]] and [[Homepage Dashboard Screenshotter (Playwright)|Pt. 2 - The Screenshotter]] 
   This would've been rad if the PC it was on was worth more than $20
-  **EDIT:** Used a better PC, worked gangbusted bbby [[Ubuntu Jumpbox + Dashboard Kiosk]]
+  **EDIT:** Used a better PC, worked gangbusters bby [[Ubuntu Jumpbox + Dashboard Kiosk]]
 
 ### Fck yea
 I will not be taking a better photo

@@ -5,7 +5,6 @@ publish: true
 tags:
 ---
 
-What like you were never a beginner? Fuck you
 
 ## Make it less capitalistic
 ### Blobs (Asterisks)

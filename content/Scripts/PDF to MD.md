@@ -3,7 +3,7 @@ category: work-note
 date: 2026-06-05
 publish: true
 tags:
-  - scripts
+  - script
   - tools
 ---
 

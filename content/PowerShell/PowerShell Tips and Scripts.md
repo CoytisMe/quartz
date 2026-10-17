@@ -5,7 +5,7 @@ tags:
   - exchange
   - graph
   - tips
-  - scripts
+  - script
 date: 2026-04-23
 publish: true
 ---
@@ -248,6 +248,27 @@ Set password never expires on all enabled local accounts. Safe to run as system 
 ```powershell
 Get-LocalUser | Where-Object {$_.Enabled -eq $true} | Set-LocalUser -PasswordNeverExpires $true
 ```
+
+Other variants:
+```powershell
+# One user (prompts for the name)
+Set-LocalUser -Name (Read-Host "Enter User") -PasswordNeverExpires $true
+
+# Every local user, enabled or not
+Get-LocalUser | Set-LocalUser -PasswordNeverExpires $true
+
+# Currently logged-in user
+Set-LocalUser -Name $env:USERNAME -PasswordNeverExpires $true
+```
+CMD equivalent (whole machine's max password age) is in [[Most Base CMD]].
+
+---
+
+### Rename PC
+```powershell
+Rename-Computer -NewName (Read-Host "Enter Name")
+```
+Add `-Restart` at the end if you want it to restart straight away.
 
 ---
 

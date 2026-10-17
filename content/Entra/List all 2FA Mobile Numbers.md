@@ -5,7 +5,7 @@ publish: true
 tags:
   - powershell
   - entra
-  - mfa
+  - 2fa
   - users
   - graphapi
 ---

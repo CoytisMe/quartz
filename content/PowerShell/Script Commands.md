@@ -2,7 +2,7 @@
 category: work-note
 tags:
   - powershell
-  - scripts
+  - script
   - reference
 date: 2026-04-28
 publish: true

@@ -6,6 +6,7 @@ tags:
   - automation
   - emailfiling
 date: 2026-04-18
+publish: false
 ---
 # Outlook VBA Auto-Filing Macro
 

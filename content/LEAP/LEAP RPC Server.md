@@ -4,7 +4,7 @@ tags:
   - leap
   - troubleshooting
 date: 2026-04-21
-source: "[[21-04-26]]"
+source:
 publish: true
 ---
 # LEAP RPC Server Unavailable

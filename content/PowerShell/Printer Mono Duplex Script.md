@@ -5,7 +5,7 @@ publish: true
 tags:
   - powershell
   - printing
-source: "[[04-09-26]]"
+source:
 ---
 ## Set Printer Settings with Script
 

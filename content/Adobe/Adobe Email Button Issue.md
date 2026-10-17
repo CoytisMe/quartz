@@ -5,7 +5,7 @@ publish: true
 tags:
   - adobe
   - acrobat
-source: "[[10-06-26]]"
+source:
 ---
 # Adobe Email Button Issue
 

@@ -4,7 +4,7 @@ tags:
   - powershell
   - spellbook
 date: 2026-05-16
-source: "[[16-05-26]]"
+source:
 publish: true
 ---
 # Powershell Spellbook Setup

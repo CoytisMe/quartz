@@ -3,7 +3,7 @@ category: how-to
 date: 2026-06-05
 publish: true
 tags:
-  - microsoft365
+  - m365
   - entra
   - audit
   - compliance

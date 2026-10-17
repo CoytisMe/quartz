@@ -4,7 +4,7 @@ date: 2026-06-21
 publish: true
 tags:
   - mentalhealth
-  - DBT
+  - dbt
   - mindfulness
   - selfdirected
   - emotionalregulation

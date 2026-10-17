@@ -6,7 +6,7 @@ tags:
   - colour
   - coytis
 date: 2026-05-11
-source: "[[11-05-26]]"
+source:
 publish: true
 ---
 # Digital Card Colour Ideas

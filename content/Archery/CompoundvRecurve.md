@@ -2,7 +2,7 @@
 category:
 publish: true
 tags:
-  - Archery
+  - archery
   - recurve
   - compound
   - dumb

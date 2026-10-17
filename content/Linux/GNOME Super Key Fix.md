@@ -6,7 +6,7 @@ tags:
   - linux
   - gnome
   - ninjarmm
-source: "[[02-09-26]]"
+source:
 ---
 ## Linux
 Fedora/Gnome super key not mapping to Windows key when connected to client's PC via Ninja RMM

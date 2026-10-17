@@ -5,7 +5,7 @@ tags:
   - definitions
   - criminallaw
 date: 2026-03-29
-publish: false
+publish: true
 ---
 # Legal Definitions — Menace, Harass, Reasonable Person Standard
 

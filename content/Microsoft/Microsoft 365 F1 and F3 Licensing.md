@@ -3,9 +3,9 @@ category: reference
 date: 2026-09-07
 publish: true
 tags:
-  - microsoft365
+  - m365
   - licensing
-source: "[[Dailys/2026/09/07-09-26]]"
+source:
 ---
 [Microsoft 365 F1](https://www.microsoft.com/en-au/microsoft-365/enterprise/f1) — designed for "Frontline Workers" (warehouse pawns and such).
 

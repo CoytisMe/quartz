@@ -12,3 +12,5 @@ tags:
 ```powershell
 Set-MailboxFolderPermission -Identity "Boardroom@yourdomain.com:\Calendar" -User Default -AccessRights Editor
 ```
+
+Related: [[Stop Shared Calendar Update Emails]] (shared calendar notification emails)

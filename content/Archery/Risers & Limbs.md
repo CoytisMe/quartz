@@ -3,7 +3,7 @@ category: reference
 publish: true
 tags:
   - archery
-  - risers
+  - riser
   - limbs
   - bowlength
 date: 2026-03-01

@@ -4,7 +4,7 @@ date: 2026-09-07
 publish: true
 tags:
   - mac
-source: "[[Dailys/2026/09/07-09-26]]"
+source:
 ---
 Create a new admin user on macOS from the command line:
 

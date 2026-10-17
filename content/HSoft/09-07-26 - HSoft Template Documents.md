@@ -3,10 +3,10 @@ category: tech
 tags:
   - hsoft
   - sql
-  - templates
+  - template
 date: 2026-07-09
 publish: false
-source: "[[Dailys/2026/07/09-07-26]]"
+source:
 ---
 # HSoft Template Documents
 

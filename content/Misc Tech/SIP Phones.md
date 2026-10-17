@@ -2,7 +2,7 @@
 category:
 publish: true
 tags:
-  - SIP
+  - sip
   - phone
   - networking
   - draw

@@ -6,7 +6,8 @@ tags:
   - microsoft
   - domainvalidation
 date: 2026-05-27
-source: "[[Dailys/2026/05/27-05-26]]"
+source:
+publish: false
 ---
 # Hosting — Domain Validation TTL Issue
 

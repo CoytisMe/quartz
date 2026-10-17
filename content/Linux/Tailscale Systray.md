@@ -5,7 +5,7 @@ publish: true
 tags:
   - linux
   - tailscale
-source: "[[05-09-26]]"
+source:
 ---
 ## Tailscale Systray on Linux
 Official one.

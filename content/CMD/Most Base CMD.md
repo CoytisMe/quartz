@@ -1,5 +1,5 @@
 ---
-category:
+category: tech
 publish: true
 tags:
   - cmd
@@ -20,6 +20,11 @@ net localgroup administrators <username> /add
 Related: To change a password it’s just:
 ```cmd		
 Net user <username> <password>
+```
+## Set passwords to never expire
+Sets the machine's maximum password age to unlimited (local accounts). PowerShell versions are in [[PowerShell Tips and Scripts#setpasswordneverexpires.ps1]].
+```cmd
+net accounts /maxpwage:unlimited
 ```
 ## Set a computer to not sleep when plugged in:
 ```cmd

@@ -5,7 +5,7 @@ publish: true
 tags:
   - windows
   - display
-source: "[[Dailys/2026/09/07-09-26]]"
+source:
 ---
 **Regedit**
 `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Configuration`

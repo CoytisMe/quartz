@@ -93,4 +93,4 @@ If all I need is to reach VMs by name, the box also works as an SSH jump host:
 - `ssh -D 1080 coytis@jumpbox` plus a browser profile set to that SOCKS proxy, with remote DNS turned on, for VM web UIs
 
 ## Next steps
-- [ ] Once working, move to `KB/Coytishost/` and update [[Pi Zero Dashboard Kiosk]] to point here
+- [x] Once working, move to `KB/Coytishost/` and update [[Pi Zero Dashboard Kiosk]] to point here ✅ 2026-09-26

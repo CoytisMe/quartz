@@ -3,7 +3,7 @@ category: how-to
 date: 2026-06-04
 publish: true
 tags:
-  - microsoft365
+  - m365
   - audit
   - compliance
   - powershell

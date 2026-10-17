@@ -2,7 +2,7 @@
 category: reference
 tags:
   - kyocera
-  - printers
+  - printer
 publish: true
 ---
 Get printer serial through PC

@@ -6,7 +6,7 @@ tags:
   - registry
   - fix
 date: 2026-05-11
-source: "[[11-05-26]]"
+source:
 publish: true
 ---
 # Adobe Acrobat Reader Mode Fix

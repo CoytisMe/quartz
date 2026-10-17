@@ -3,7 +3,7 @@ category: how-to
 tags:
   - commands
   - adobe
-  - scripts
+  - script
 date: 2026-04-29
 publish: true
 ---

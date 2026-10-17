@@ -3,7 +3,7 @@ category: how-to
 tags:
   - ninja
   - devices
-  - reports
+  - report
 publish: true
 ---
 1. Reports for something flashy

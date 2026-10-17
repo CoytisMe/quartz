@@ -3,7 +3,7 @@ category: research
 tags:
   - research
   - oled
-  - monitors
+  - monitor
   - hardware
   - burnin
 date: 2026-04-03

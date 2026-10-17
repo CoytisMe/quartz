@@ -6,7 +6,7 @@ tags:
   - troubleshooting
 date: 2026-06-24
 publish: true
-source: "[[24-06-26]]"
+source:
 ---
 ## Print to PDF not working?
 lol how? isn't that just built in? 

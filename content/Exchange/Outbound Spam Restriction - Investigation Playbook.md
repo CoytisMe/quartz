@@ -3,7 +3,7 @@ category: tech
 date: 2026-08-06
 publish: true
 tags:
-  - microsoft365
+  - m365
   - exchange
   - security
   - defender

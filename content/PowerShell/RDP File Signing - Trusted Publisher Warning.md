@@ -6,7 +6,7 @@ tags:
   - rdp
   - codesigning
   - powershell
-  - certificates
+  - certificate
   - commandpalette
 ---
 
