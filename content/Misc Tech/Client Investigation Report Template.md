@@ -1,7 +1,7 @@
 ---
 category: work-note
 date: 2026-10-17
-publish: true
+publish: false
 tags:
   - kbdraft
   - greenhoodkb

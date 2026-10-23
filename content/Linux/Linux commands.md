@@ -95,6 +95,14 @@ End in | wc -l
 find . -iname "*s21*" | wc -l
 ```
 
+## Which
+Find the executable for a command 
+```bash
+which monitorsoff
+```
+
+
+
 ---
 ## rm
 Delete Stuff
@@ -120,6 +128,10 @@ Makes a folder
 mkdir /path/to/folder
 ```
 
+Makes the whole path:
+```shell
+mkdir -p /path/to/folder
+```
 
 ---
 ## mv
